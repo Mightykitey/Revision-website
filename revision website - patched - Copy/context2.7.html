@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.7 - Maintainable Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h3>2.7.1 - Style Conventions for Maintainable Code</h3>
+        <p>Maintaining readable and maintainable code is crucial for long-term project success, especially when multiple developers are involved or when the codebase evolves over time. Following consistent coding standards, like Python's PEP 8 or Java's conventions, can help improve readability and ensure consistency across the codebase. Below are key style conventions:</p>
+        <ul>
+            <li><strong>Use Descriptive Variable and Function Names:</strong> Names should clearly describe their purpose. For example, <code>calculate_total_price</code> is more descriptive than <code>calc</code>.</li>
+            <li><strong>Follow Proper Indentation:</strong> Indentation helps define code structure. In Python, 4 spaces per indentation level are recommended. In other languages, this may vary, but consistent indentation is important for readability.</li>
+            <li><strong>Limit Line Length:</strong> Avoid long lines of code that are hard to read. For example, limit lines to 79 characters in Python (PEP 8). This ensures that code is readable on different screen sizes and across various text editors.</li>
+            <li><strong>Use Blank Lines:</strong> Blank lines improve code readability. For example, separate function definitions, class declarations, and logical sections of code using blank lines.</li>
+            <li><strong>Use Docstrings:</strong> Always include documentation for functions, classes, and modules using docstrings. A docstring is a string that describes what a function, class, or module does. For example:</li>
+            <pre>
+    def calculate_total_price(price, tax_rate):
+        """
+        Calculate the total price including tax.
+        
+        Args:
+        price (float): The initial price of the item.
+        tax_rate (float): The tax rate to apply.
+        
+        Returns:
+        float: The total price after tax.
+        """
+        return price + (price * tax_rate)
+            </pre>
+            <p>In this example, the function <code>calculate_total_price</code> is described using a docstring, which helps developers understand the function's purpose and its parameters and return value.</p>
+        </ul>
+
+        <h3>2.7.2 - Comments for Maintainability</h3>
+        <p>Adding meaningful comments is essential for maintainability. Comments help explain the logic behind complex sections of code, making it easier for other developers (or even yourself in the future) to understand. However, avoid over-commenting or stating the obvious. The best code is often self-explanatory with clear names and structure. Here are some tips:</p>
+        <ul>
+            <li><strong>Comment on Why, Not What:</strong> It's often clear what the code is doing, but why it's doing it can be unclear. Focus your comments on explaining why a particular approach was taken.</li>
+            <li><strong>Avoid Redundant Comments:</strong> Do not comment obvious code, like <code>x = x + 1 # increment x</code>. Instead, comment on why certain operations are needed.</li>
+            <li><strong>Document Functions and Methods:</strong> Include a brief comment on what each function does, what parameters it expects, and what it returns. For example:</li>
+            <pre>
+    # This function adds two numbers together
+    def add_numbers(a, b):
+        return a + b
+            </pre>
+        </ul>
+
+        <h3>2.7.3 - Code Structure for Maintainability</h3>
+        <p>The structure of your code plays an important role in its maintainability. Some best practices include:</p>
+        <ul>
+            <li><strong>Modular Code:</strong> Break your code into small, reusable modules (functions or classes). This makes your code easier to test and debug.</li>
+            <li><strong>Keep Functions Small:</strong> Functions should do one thing and do it well. If a function is doing too many things, it's harder to test, understand, and maintain.</li>
+            <li><strong>Keep Classes Focused:</strong> Classes should represent a single concept or entity. Don't overload them with unrelated functionality.</li>
+        </ul>
+
+        <h3>2.7.4 - Version Control for Maintainability</h3>
+        <p>Version control systems like Git are essential for managing changes and collaboration in software development. These systems allow you to track changes over time, work on different branches, and collaborate with others. Proper use of version control ensures that your code is maintainable over the long term by allowing easy rollback to previous versions and managing changes in a collaborative environment.</p>
+
+        <h4>Example of Using Git:</h4>
+        <pre>
+    # Initialize a git repository
+    git init
+
+    # Add all files to the staging area
+    git add .
+
+    # Commit the changes
+    git commit -m "Initial commit"
+
+    # Push to a remote repository (e.g., GitHub)
+    git push origin main
+        </pre>
+        <footer>
+            <a href="context2.html">Back to Context 2</a> | <a href="new website.html">Return to New Website</a>
+        </footer>
+    </div>
+</body>
+</html>

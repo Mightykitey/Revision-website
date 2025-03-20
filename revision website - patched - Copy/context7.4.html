@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.4 - Cloud Environments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>7.4 - Cloud Environments</h2>
+
+        <h3>7.4.1 - Understand the concepts of cloud computing deployment in terms of:</h3>
+        <p>Cloud computing involves the deployment of services and infrastructure over the internet, which can be tailored to meet specific needs. Here’s an overview of key elements in cloud environments:</p>
+        <ul>
+            <li><strong>Applications</strong>: Applications in the cloud are either cloud-native or cloud-hosted. Cloud-native applications are designed to run in cloud environments, leveraging scalability and resource elasticity. These apps typically use microservices architecture and containers.</li>
+            <li><strong>Data</strong>: Cloud storage offers scalable, reliable, and secure ways to store and manage data. Organizations can use public, private, or hybrid cloud storage, depending on the sensitivity of the data. Common services include object storage (like AWS S3) and file systems.</li>
+            <li><strong>Runtime</strong>: The runtime in the cloud refers to the environment where code is executed. In cloud computing, it often involves containerized environments (e.g., Docker) or serverless architectures (e.g., AWS Lambda) that automatically scale resources based on demand.</li>
+            <li><strong>Middleware</strong>: Middleware in the cloud is software that connects different applications, services, or systems. This may include API gateways, messaging systems, and integration services that allow disparate systems to communicate and work together in a cloud ecosystem.</li>
+            <li><strong>Operating System</strong>: Cloud-based operating systems, often virtualized, run on physical or virtual machines in the cloud. These systems are designed to handle large-scale cloud operations and may be managed by cloud providers, offering enhanced security and performance optimizations.</li>
+            <li><strong>Virtualization</strong>: Virtualization is the core technology behind cloud computing. It enables the creation of virtual instances of hardware resources, such as virtual machines (VMs) or containers. It allows for resource pooling, load balancing, and efficient utilization of hardware resources in a multi-tenant environment.</li>
+            <li><strong>Servers</strong>: In the cloud, servers are virtualized and provided as scalable resources that can be provisioned and decommissioned on demand. Cloud providers handle the physical hardware, while customers manage their virtualized servers, ensuring efficient use of computing resources.</li>
+            <li><strong>Storage</strong>: Cloud storage refers to services that store and manage data over the internet. This can range from block storage for individual virtual machine disks to object storage for large-scale data (e.g., backups, media files). These storage solutions are typically fault-tolerant, scalable, and geographically distributed.</li>
+            <li><strong>Networking</strong>: Cloud networking involves managing connections between cloud services and on-premises infrastructure. This includes configuring Virtual Private Networks (VPNs), load balancers, and firewalls, ensuring security and high performance for cloud-hosted applications and services.</li>
+        </ul>
+
+        <h3>7.4.2 - Understand common cloud delivery models and the way responsibility is distributed between the subscriber and service provider:</h3>
+        <p>Cloud delivery models vary in terms of the level of control and responsibility between the service provider and the subscriber. Below is an explanation of three common models:</p>
+        <ul>
+            <li><strong>IaaS (Infrastructure as a Service)</strong>
+                <p>IaaS offers the most control to the subscriber, providing virtualized computing resources over the internet. The subscriber manages the operating system, middleware, runtime, and applications, while the service provider is responsible for the hardware, networking, and storage infrastructure.</p>
+                <ul>
+                    <li>Subscriber: Applications, data, runtime, middleware, operating system</li>
+                    <li>Service Provider: Virtualization, servers, storage, networking</li>
+                </ul>
+            </li>
+            <li><strong>PaaS (Platform as a Service)</strong>
+                <p>PaaS offers a platform that allows subscribers to develop, run, and manage applications without worrying about the underlying infrastructure. It abstracts away much of the system administration, so the subscriber focuses more on the application layer and less on server management.</p>
+                <ul>
+                    <li>Subscriber: Applications, data</li>
+                    <li>Service Provider: Runtime, middleware, operating system, virtualization, servers, storage, networking</li>
+                </ul>
+            </li>
+            <li><strong>SaaS (Software as a Service)</strong>
+                <p>SaaS is a complete, ready-to-use solution delivered over the internet. The service provider hosts everything, from the application software to the data management and security. Subscribers typically access the software via web interfaces or APIs.</p>
+                <ul>
+                    <li>Subscriber: User only</li>
+                    <li>Service Provider: Applications, data, runtime, middleware, operating system, virtualization, servers, storage, networking</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>7.4.3 - Understand the concept of DaaS (Data as a Service) in terms of:</h3>
+        <p>DaaS is a model that allows organizations to access and manage their data without having to deal with the complexity of infrastructure management. Here's a look at its key elements:</p>
+        <ul>
+            <li><strong>Data Science Platforms</strong>: These platforms provide tools and services for analyzing large datasets, enabling machine learning, artificial intelligence, and statistical analysis in the cloud.</li>
+            <li><strong>Dashboards</strong>: Dashboards in DaaS present data in an easily understandable format, often used for reporting and monitoring business performance in real-time.</li>
+            <li><strong>Business Information Tools</strong>: These tools provide the capabilities to turn raw data into actionable insights for decision-making, often in the form of reports or visualizations.</li>
+            <li><strong>Data Lakes</strong>: A data lake is a centralized repository that allows organizations to store structured and unstructured data at scale, enabling data scientists and analysts to work with large volumes of data.</li>
+            <li><strong>Databases</strong>: DaaS providers offer scalable cloud-based databases where organizations can store, query, and manage data with high availability and security.</li>
+            <li><strong>File Systems</strong>: Cloud-based file systems enable organizations to store and access large amounts of unstructured data in the cloud, offering scalability and sharing capabilities.</li>
+        </ul>
+
+        <h3>7.4.4 - Understand how DaaS (Data as a Service) is used by organizations:</h3>
+        <p>DaaS provides organizations with scalable, secure, and efficient ways to access, store, and process data. This enables companies to focus on leveraging their data for insights and innovation without investing heavily in infrastructure. However, DaaS adoption comes with challenges, such as:</p>
+        <ul>
+            <li>Data Security: Ensuring that sensitive information remains protected against unauthorized access is a top priority.</li>
+            <li>Service Dependency: Organizations must consider the risk of being reliant on a third-party service provider for data storage and processing.</li>
+            <li>Data Integration: Integrating DaaS solutions with existing on-premises systems and data sources may require significant effort.</li>
+        </ul>
+
+        <h3>7.4.5 - Understand the concept of cloud sourcing and cloud portability:</h3>
+        <p>Cloud sourcing and cloud portability are critical for organizations when managing cloud resources and services. These concepts help businesses navigate the complexities of using cloud-based solutions across different platforms:</p>
+        <ul>
+            <li><strong>Cloud Sourcing</strong>: Cloud sourcing involves selecting cloud services and providers to meet specific business needs, such as cost-efficiency, scalability, or specific functionality. It requires a strategic approach to identify the best-fit services for different functions, such as storage, computing, or analytics.</li>
+            <li><strong>Cloud Portability</strong>: Cloud portability refers to the ability to move data, applications, or services across different cloud platforms without significant rework. This can provide flexibility, reduce vendor lock-in, and help organizations avoid service disruptions in case of changing requirements.</li>
+        </ul>
+
+        <footer>
+            <a href="context7.html">Back to Context 7</a> | <a href="new website.html">Return to New Website</a>
+        </footer>
+    </div>
+</body>
+</html>
