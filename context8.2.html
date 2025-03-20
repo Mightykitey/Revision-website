@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.2 - Threat Mitigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>8.2 - Threat Mitigation</h2>
+
+        <h3>8.2.1 - CIA Concept</h3>
+        <p>The CIA triad stands for Confidentiality, Integrity, and Availability. These three principles are the foundation of information security:</p>
+        <ul>
+            <li><strong>Confidentiality</strong>: Ensures that information is accessible only to those authorized to view it. This is often protected through encryption, access control lists (ACLs), and data masking.</li>
+            <li><strong>Integrity</strong>: Guarantees that information is accurate and trustworthy. Integrity is maintained by using hashing algorithms, digital signatures, and error-checking protocols to detect unauthorized changes.</li>
+            <li><strong>Availability</strong>: Ensures that information and systems are available and functioning as needed. This involves measures such as load balancing, fault tolerance, backup systems, and disaster recovery protocols to ensure continuous access to data and resources.</li>
+        </ul>
+        <p>By focusing on these principles, organizations can create a security framework that protects sensitive data, prevents unauthorized access, and ensures critical systems are always operational.</p>
+
+        <h3>8.2.2 - Interrelationship of Security Concepts</h3>
+        <p>In the context of security, multiple concepts work together to form a comprehensive security strategy:</p>
+        <ul>
+            <li><strong>Security</strong>: The broad set of measures taken to protect systems and data from threats, vulnerabilities, and attacks.</li>
+            <li><strong>Identity</strong>: The process of confirming the identity of users, systems, or devices before granting access to resources, often through authentication methods like passwords, biometrics, or tokens.</li>
+            <li><strong>Confidentiality, Integrity, and Availability (CIA)</strong>: As previously explained, these principles form the core of data protection and system security.</li>
+            <li><strong>Threat</strong>: Any potential danger that could exploit a vulnerability and cause harm. Examples include hackers, malware, and insider threats.</li>
+            <li><strong>Vulnerability</strong>: A weakness in a system or application that can be exploited by a threat. Identifying and patching vulnerabilities is a key part of threat mitigation.</li>
+            <li><strong>Risk Management</strong>: The process of identifying, assessing, and mitigating risks. By understanding the potential risks, organizations can make informed decisions about how to protect their assets and reduce exposure to threats.</li>
+        </ul>
+        <p>These concepts are interconnected and must be carefully managed to maintain a robust security posture in any organization. Effective security strategies address threats by reducing vulnerabilities and managing risks to ensure confidentiality, integrity, and availability.</p>
+
+        <h3>8.2.3 - Processes and Procedures to Mitigate Threats</h3>
+        <p>To reduce the likelihood and impact of security breaches, various processes and procedures are employed to mitigate threats and safeguard systems:</p>
+        <ul>
+            <li><strong>Air Gapping</strong>: The process of isolating systems or networks from external connections, such as the internet, to prevent unauthorized access or cyberattacks. Common in environments dealing with highly sensitive data.</li>
+            <li><strong>Anti-virus and Anti-malware Programs</strong>: Software tools that detect, block, and remove malicious software (malware) that could compromise system integrity and data security.</li>
+            <li><strong>Certification of APIs</strong>: Ensuring that application programming interfaces (APIs) meet security standards and are properly tested to prevent security breaches due to poorly designed or unprotected API endpoints.</li>
+            <li><strong>Configuration and Management of Software-based Access Control</strong>: Setting up permissions and rules that control who can access specific data and system resources. This includes the management of user roles and access rights.</li>
+            <li><strong>Device Hardening</strong>: The process of securing devices (such as computers, routers, and smartphones) by removing unnecessary services, applying security patches, and configuring systems to minimize attack surfaces.</li>
+            <li><strong>Encryption (Hashing, Asymmetric, Symmetric)</strong>: Techniques used to protect data by converting it into unreadable forms:
+                <ul>
+                    <li><strong>Hashing</strong>: A one-way cryptographic process that transforms data into a fixed-length string, used to verify integrity.</li>
+                    <li><strong>Asymmetric Encryption</strong>: Uses a public key for encryption and a private key for decryption (e.g., RSA, elliptic curve cryptography).</li>
+                    <li><strong>Symmetric Encryption</strong>: Uses the same key for both encryption and decryption (e.g., AES, DES).</li>
+                </ul>
+            </li>
+            <li><strong>User Access Restrictions</strong>: Limiting access to sensitive data or systems based on roles and permissions:
+                <ul>
+                    <li><strong>Usernames, Passwords, and Passphrases</strong>: Traditional methods of authentication that verify the identity of users before granting access.</li>
+                    <li><strong>Data Access Levels/Permissions</strong>: Establishing different access levels to ensure that users only access the data they need for their roles, preventing unauthorized data exposure.</li>
+                    <li><strong>Physical Access Control/Restrictions</strong>: Restricting physical access to critical hardware and network infrastructure to prevent unauthorized individuals from tampering with systems.</li>
+                </ul>
+            </li>
+            <li><strong>Multi-factor Authentication (MFA)</strong>: A security mechanism that requires users to provide two or more forms of identification before accessing systems. These factors can include:
+                <ul>
+                    <li><strong>Possession-based</strong>: Something the user has, such as a token or smartphone.</li>
+                    <li><strong>Biometric</strong>: Something the user is, like a fingerprint or facial recognition.</li>
+                    <li><strong>Knowledge</strong>: Something the user knows, like a password or passphrase.</li>
+                    <li><strong>Location-based</strong>: The physical location of the user, typically used with other factors to enhance security.</li>
+                </ul>
+            </li>
+            <li><strong>Firewalls</strong>: Network security devices that monitor and control incoming and outgoing traffic based on predetermined security rules, helping to block unauthorized access.</li>
+            <li><strong>Password Managers</strong>: Tools that securely store and manage passwords for various accounts, allowing for strong, unique passwords without the need to memorize them.</li>
+            <li><strong>Policy, Policy Enforcement, and Training</strong>: Developing security policies and procedures, enforcing them through technical controls, and providing training to employees to ensure they follow best practices in security.</li>
+            <li><strong>SYN Cookies</strong>: A technique used to protect against SYN flood attacks, a type of denial-of-service (DoS) attack, by sending a cookie to the client instead of maintaining the connection state on the server.</li>
+            <li><strong>Use of Virtual Private Networks (VPNs)</strong>: Encrypts internet traffic to ensure secure communications over public networks, often used to protect remote workers or maintain privacy on unsecured networks.</li>
+            <li><strong>Security Testing (Penetration Testing, White/Grey Hat Hackers)</strong>: Regularly testing systems for vulnerabilities through simulated attacks to identify and fix weaknesses before they can be exploited. Ethical hackers (white-hat hackers) or sometimes grey-hat hackers perform these tests to improve security.</li>
+        </ul>
+
+        <footer>
+            <a href="context8.html">Back to Context 8</a> | <a href="new website.html">Return to New Website</a>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.8 - Testing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h3>2.8.1 - Importance of Testing</h3>
+        <p>Testing is essential to ensure the reliability and correctness of software and systems before they are released. By testing early and often, developers can catch bugs, errors, and performance issues before they affect users. Without testing, the final product could have hidden issues, leading to user dissatisfaction and costly post-release fixes.</p>
+
+        <h3>2.8.2 - Testing Methodologies</h3>
+        <p>Different types of tests are employed depending on the context, purpose, and scope of the product. Here are some common testing methodologies:</p>
+        <ul>
+            <li><strong>Concept Testing:</strong> A method used to test the feasibility and viability of a product idea before full development. This helps understand whether the product concept meets market demand.</li>
+            <li><strong>Unit Testing:</strong> Focuses on testing individual units or components of the code to verify that each part works as expected. This is usually done by the developers during development.</li>
+            <li><strong>Boundary Testing:</strong> Tests the boundaries of input values to ensure the system behaves correctly when handling extreme or edge cases.</li>
+            <li><strong>Integration Testing:</strong> Verifies that various components or systems work together as expected. It focuses on the interactions between components.</li>
+            <li><strong>Performance Testing:</strong> Evaluates how the system performs under various stress levels, ensuring that it can handle high load conditions without failure.</li>
+            <li><strong>System Testing:</strong> Tests the entire system to ensure that all components function together to meet the intended specifications.</li>
+            <li><strong>Acceptance and Usability Testing:</strong> Verifies the system meets the user’s requirements and ensures that it is user-friendly and provides a positive user experience.</li>
+            <li><strong>Regression Testing:</strong> Ensures that new code changes or updates do not negatively impact existing functionality and that previously fixed issues remain resolved.</li>
+            <li><strong>Load/Stress Testing:</strong> Assesses the system’s capacity by simulating heavy load conditions to test how it handles stress, which could include high volumes of users or data.</li>
+        </ul>
+
+        <h3>2.8.3 - Automated Testing Tools</h3>
+        <p>Automated testing tools allow for efficient, repeatable, and consistent testing of software systems. These tools can quickly execute predefined test cases and provide immediate feedback. Some popular automated testing tools include:</p>
+        <ul>
+            <li><strong>JUnit:</strong> A widely used testing framework for Java applications. It helps to write and run repeatable tests, ensuring code reliability.</li>
+            <li><strong>PyTest:</strong> A testing framework for Python that makes it easy to write simple as well as scalable test cases for a variety of applications.</li>
+            <li><strong>Selenium:</strong> A tool for automating web applications for testing purposes. It allows for interaction with web pages, ensuring they behave as expected during tests.</li>
+        </ul>
+
+        <h3>2.8.4 - Root Cause Analysis</h3>
+        <p>Root cause analysis (RCA) is a method used to identify the underlying cause of problems. By pinpointing the source of an issue, it becomes easier to implement corrective actions to prevent it from recurring. One common method for conducting RCA is the "Five Whys," which involves asking the question "Why?" repeatedly (five times) to drill down into the problem's root cause.</p>
+        <p>For example:</p>
+        <ul>
+            <li><strong>1st Why:</strong> Why did the system crash? -> Because the server ran out of memory.</li>
+            <li><strong>2nd Why:</strong> Why did the server run out of memory? -> Because the application had a memory leak.</li>
+            <li><strong>3rd Why:</strong> Why was there a memory leak? -> Because a variable was not being properly released after use.</li>
+            <li><strong>4th Why:</strong> Why wasn’t the variable released? -> Because of a coding oversight in the release mechanism.</li>
+            <li><strong>5th Why:</strong> Why wasn’t the coding oversight noticed? -> Because there was no proper code review or testing for memory management.</li>
+        </ul>
+
+        <h3>2.8.5 - Constructing an Effective Test Plan</h3>
+        <p>An effective test plan outlines the scope, objectives, and approach to testing a product or system. A good test plan should include the following elements:</p>
+        <ul>
+            <li><strong>Identifying Tests:</strong> Determine which tests will be carried out, such as unit tests, integration tests, and user acceptance tests.</li>
+            <li><strong>Test Purpose:</strong> Describe the goal of each test. For example, the purpose of a unit test might be to validate the logic of a specific function.</li>
+            <li><strong>Test Data:</strong> Identify the test data, including valid inputs, invalid inputs, edge cases, and erroneous data that will be used in testing.</li>
+            <li><strong>Expected Results:</strong> Clearly define the expected outcome of the test. For example, if testing an authentication function, the expected result could be that the user is granted access upon providing valid credentials.</li>
+        </ul>
+        <p>By following these elements, a test plan ensures that all aspects of the system are tested and provides a clear guide for the testing process.</p>
+        <footer>
+            <a href="context2.html">Back to Context 2</a> | <a href="new website.html">Return to New Website</a>
+        </footer>
+    </div>
+</body>
+</html>

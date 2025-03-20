@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.4 - Program Structure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h3>2.4.1 - Sequence, Selection, and Iteration</h3>
+        <p>In programming, the flow of control is crucial in determining how the program executes. The three basic programming structures are:</p>
+        
+        <h4>Sequence</h4>
+        <p><strong>Sequence</strong> refers to executing statements one after another in a linear order. Each statement is executed in the order it appears in the code.</p>
+        <pre>
+    # Example of Sequence
+    x = 10
+    y = 20
+    z = x + y
+    print(z)  # Output: 30
+        </pre>
+        <p>In the example above, the program executes each line of code sequentially: first, it assigns values to variables, then adds them, and finally prints the result.</p>
+
+        <h4>Selection</h4>
+        <p><strong>Selection</strong> refers to choosing between different paths or actions based on conditions. This is typically done using <code>if</code>, <code>else</code>, and <code>elif</code> statements in many programming languages.</p>
+        <pre>
+    # Example of Selection
+    age = 18
+    if age >= 18:
+        print("You are an adult.")
+    else:
+        print("You are a minor.")
+        </pre>
+        <p>In this example, the program checks the condition <code>if age >= 18</code>. If the condition is true, the message "You are an adult" is printed; otherwise, the message "You are a minor" is printed.</p>
+
+        <h4>Iteration</h4>
+        <p><strong>Iteration</strong> refers to repeating a block of code multiple times, which is commonly done with loops. There are two main types of loops in programming:</p>
+        <ul>
+            <li><strong>For loop:</strong> Repeats a block of code a specified number of times or over a sequence of values.</li>
+            <li><strong>While loop:</strong> Repeats a block of code as long as a specified condition is true.</li>
+        </ul>
+        
+        <h5>For Loop Example:</h5>
+        <pre>
+    # Example of For Loop
+    for i in range(5):
+        print(i)
+        </pre>
+        <p>The above code will print the numbers 0 to 4. The <code>range(5)</code> function generates numbers from 0 to 4, and the loop iterates over them, printing each number.</p>
+        
+        <h5>While Loop Example:</h5>
+        <pre>
+    # Example of While Loop
+    i = 0
+    while i < 5:
+        print(i)
+        i += 1  # Increment the value of i to avoid infinite loop
+        </pre>
+        <p>The <code>while</code> loop will continue as long as the condition <code>i < 5</code> is true. In this case, the loop will print the numbers 0 to 4.</p>
+        
+        <p>In summary, sequence, selection, and iteration are fundamental building blocks of programming that determine how programs flow and execute. Sequence handles simple step-by-step execution, selection enables decision-making, and iteration provides the ability to repeat actions based on conditions or ranges.</p>
+        <footer>
+            <a href="context2.html">Back to Context 2</a> | <a href="new website.html">Return to New Website</a>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.4 - Data Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>6.4 - Data Management</h2>
+
+        <h3>6.4.1 - Understand factors that determine how data is gathered, entered, and maintained:</h3>
+        <p>Effective data management involves several factors that affect how data is collected, processed, stored, and maintained. These factors ensure the integrity and usability of data across systems:</p>
+        <ul>
+            <li><strong>The ‘Six Vs’</strong>: These are key characteristics used to describe and assess the challenges and value of data:
+                <ul>
+                    <li><strong>Volume</strong>: Refers to the amount of data being generated. With the rise of IoT and big data, organizations handle enormous volumes of data.</li>
+                    <li><strong>Variety</strong>: The different types of data (structured, semi-structured, and unstructured), including images, text, sensor data, and more.</li>
+                    <li><strong>Velocity</strong>: The speed at which data is created and needs to be processed. High-velocity data (e.g., real-time financial transactions) requires immediate action.</li>
+                    <li><strong>Veracity</strong>: The trustworthiness and accuracy of data. Inconsistent or unverified data can lead to unreliable insights.</li>
+                    <li><strong>Value</strong>: The usefulness of the data. Not all data is valuable, so understanding which data to focus on is critical.</li>
+                    <li><strong>Variability</strong>: The fluctuating nature of data, particularly in real-time environments where data quality and types change rapidly.</li>
+                </ul>
+            </li>
+            <li><strong>Data Assurance/Quality</strong>: Ensuring the accuracy and reliability of data through:
+                <ul>
+                    <li><strong>Validation</strong>: Checking if the data fits predefined rules or constraints.</li>
+                    <li><strong>Verification</strong>: Confirming that the data is correct, often through cross-checking with reliable sources.</li>
+                    <li><strong>Reliability</strong>: Ensuring that data is consistent and dependable over time.</li>
+                    <li><strong>Redundancy</strong>: Having multiple copies or backup systems in place to ensure data is not lost or corrupted.</li>
+                </ul>
+            </li>
+            <li><strong>Types of Data</strong>: Data can come in various forms, including:
+                <ul>
+                    <li><strong>Structured Data</strong>: Data that is organized in a predefined format, such as databases with rows and columns (e.g., SQL databases).</li>
+                    <li><strong>Semi-structured Data</strong>: Data that has some organizational structure, such as XML or JSON files, but not as rigid as structured data.</li>
+                    <li><strong>Unstructured Data</strong>: Data without a predefined format, such as videos, images, social media posts, and emails.</li>
+                </ul>
+            </li>
+            <li><strong>Research Population</strong>: This refers to the group of individuals or entities from which data is collected. Defining a clear and representative population is critical to ensure meaningful and reliable data.</li>
+            <li><strong>Qualitative and Quantitative Data</strong>: 
+                <ul>
+                    <li><strong>Qualitative Data</strong>: Descriptive data that can be categorized based on traits and characteristics (e.g., customer feedback, interviews).</li>
+                    <li><strong>Quantitative Data</strong>: Numerical data that can be measured and quantified (e.g., sales figures, website traffic).</li>
+                </ul>
+            </li>
+            <li><strong>Legislation and Regulatory Compliance</strong>: Data collection and storage must comply with various legal requirements such as:
+                <ul>
+                    <li><strong>GDPR</strong>: General Data Protection Regulation in the EU, ensuring user privacy and data protection.</li>
+                    <li><strong>HIPAA</strong>: Health Insurance Portability and Accountability Act in the US, protecting healthcare data.</li>
+                </ul>
+            </li>
+            <li><strong>Ethics</strong>: Ethical considerations are vital in data management to ensure data is collected and used responsibly, protecting privacy and avoiding biases.</li>
+            <li><strong>Organisational Factors</strong>: The effectiveness of data management can be influenced by:
+                <ul>
+                    <li><strong>Time</strong>: The time available for data entry, maintenance, and analysis.</li>
+                    <li><strong>Skills</strong>: The expertise required to handle data properly, including data scientists, analysts, and database administrators.</li>
+                    <li><strong>Cost</strong>: The financial resources needed for data collection, storage, and processing.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>6.4.2 - Understand the purpose of data analysis tools and their use in business:</h3>
+        <p>Data analysis tools are essential for organizations to process large amounts of data and extract actionable insights that can guide strategic decisions. Key tools and systems include:</p>
+        <ul>
+            <li><strong>Data Warehousing</strong>: Centralized repositories where data from multiple sources is stored and organized for querying and analysis. Examples include Amazon Redshift and Google BigQuery.</li>
+            <li><strong>Data Lakes</strong>: Storage systems that handle vast amounts of unstructured or semi-structured data, allowing businesses to store raw data for future analysis. Examples include Apache Hadoop and Azure Data Lake.</li>
+            <li><strong>Data Mining Tools</strong>: These tools, such as RapidMiner and KNIME, are used to explore large datasets to uncover patterns, relationships, and trends that can guide decision-making.</li>
+        </ul>
+
+        <h3>6.4.3 - Understand the role of metadata classification in defining the meanings of data:</h3>
+        <p>Metadata provides context for data, helping to define its structure, relationships, and interpretation. This is critical for ensuring that data is understood and used effectively. For example:</p>
+        <ul>
+            <li><strong>Descriptive Metadata</strong>: Information that describes the content of the data (e.g., title, author, date of creation).</li>
+            <li><strong>Structural Metadata</strong>: Describes how the data is organized, such as the format and structure of a database or document.</li>
+            <li><strong>Administrative Metadata</strong>: Information about how and when the data was created, who can access it, and how it is managed.</li>
+        </ul>
+
+        <h3>6.4.4 - Understand the use of data/access entitlements/permissions management:</h3>
+        <p>Data security and privacy are crucial in modern organizations. Managing who can access, modify, or share data is necessary to protect sensitive information. Key components of data access management include:</p>
+        <ul>
+            <li><strong>Authorisation</strong>: Determining who has permission to access and perform actions on data.</li>
+            <li><strong>Privileges</strong>: The specific rights granted to users or groups, such as read, write, or execute permissions.</li>
+            <li><strong>Access Rights</strong>: The level of access a user has to different datasets, often based on role or function within an organization.</li>
+            <li><strong>Rules</strong>: Policies or guidelines that govern data access, ensuring that only authorized individuals can perform specific actions on data.</li>
+        </ul>
+
+        <h3>6.4.5 - Understand how data can be accessed and managed across different platforms:</h3>
+        <p>In today’s multi-platform environments, organizations need methods to access and manage data across different systems. Application Programming Interfaces (APIs) are commonly used for this purpose:</p>
+        <ul>
+            <li><strong>APIs</strong>: Interfaces that allow software applications to communicate with each other, enabling seamless data exchange and integration across systems. For example, APIs are used to integrate e-commerce platforms with payment gateways or customer relationship management (CRM) systems.</li>
+        </ul>
+
+        <h3>6.4.6 - Understand the concepts of data at rest, data in use, and data in motion:</h3>
+        <p>Understanding how data moves and is stored is critical for data security:</p>
+        <ul>
+            <li><strong>Data at Rest</strong>: Data that is stored on physical devices, such as hard drives or cloud storage. Encryption is often used to protect data at rest.</li>
+            <li><strong>Data in Use</strong>: Data that is actively being processed, accessed, or manipulated by applications or users.</li>
+            <li><strong>Data in Motion</strong>: Data that is transmitted over networks between devices or systems. Securing data in motion typically involves encryption and secure communication protocols.</li>
+        </ul>
+
+        <footer>
+            <a href="context6.html">Back to Context 6</a> | <a href="new website.html">Return to New Website</a>
+        </footer>
+    </div>
+</body>
+</html>
