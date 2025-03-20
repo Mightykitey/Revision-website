@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.5 - Built-in Functions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h3>2.5.1 - Benefits and Drawbacks of Using Pre-Written Code</h3>
+        <p>Using pre-written code such as built-in functions and standard libraries can save time and improve efficiency. However, there are some considerations:</p>
+        <ul>
+            <li><strong>Benefits:</strong>
+                <ul>
+                    <li>Saves time by avoiding writing common functionality from scratch.</li>
+                    <li>Well-tested and optimized for performance, ensuring reliability and speed.</li>
+                    <li>Improves code readability and maintainability by using standard, recognizable functions.</li>
+                </ul>
+            </li>
+            <li><strong>Drawbacks:</strong>
+                <ul>
+                    <li>Over-reliance on built-in functions may make the code harder to customize or adapt for specific needs.</li>
+                    <li>Some built-in functions may not be suitable for all needs or environments, especially in specialized scenarios.</li>
+                    <li>Can increase program size unnecessarily if unused functions or libraries are imported into the project.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>2.5.2 - Selecting and Using Pre-Written Code (e.g., Built-in Functions, Standard Libraries)</h3>
+        <p>Choosing appropriate built-in functions and libraries depends on the task at hand:</p>
+        <ul>
+            <li><strong>For mathematical tasks:</strong> Use the <code>math</code> module, which provides functions like <code>math.sqrt()</code> for square roots, <code>math.factorial()</code> for factorials, and many more.</li>
+            <li><strong>For string manipulation:</strong> Use Python's built-in string functions like <code>upper()</code> to convert a string to uppercase or <code>replace()</code> to substitute substrings.</li>
+            <li><strong>For working with collections:</strong> Python provides built-in data structures such as lists, sets, and dictionaries, with powerful methods like <code>append()</code> for lists or <code>get()</code> for dictionaries.</li>
+            <li><strong>For file operations:</strong> The <code>open()</code> function is a built-in function used to read from or write to files, making file handling straightforward.</li>
+        </ul>
+
+        <h3>2.5.3 - Writing Code with User-Written and Pre-Written Code</h3>
+        <p>Combining user-written and pre-written code allows for more flexible and efficient program development. Pre-written code provides standard solutions for common tasks, while user-written code can address specific or custom requirements.</p>
+        <p>For example, while Python offers built-in functions for data manipulation and mathematical operations, a user might write their own algorithm for sorting a specific set of data based on custom criteria, such as sorting a list of objects based on a particular attribute.</p>
+
+        <h4>Example of Combining Pre-Written and User-Written Code:</h4>
+        <pre>
+    # Pre-written code: Using the built-in 'sorted' function to sort a list
+    numbers = [3, 1, 4, 1, 5, 9]
+    sorted_numbers = sorted(numbers)  # Uses pre-written code for sorting
+
+    # User-written code: Sorting based on custom criteria (e.g., sorting in descending order)
+    def custom_sort(lst):
+        return sorted(lst, reverse=True)  # Custom logic to reverse the order
+
+    custom_sorted_numbers = custom_sort(numbers)  # Uses both pre-written and user-written code
+    print(custom_sorted_numbers)  # Output: [9, 5, 4, 3, 1, 1]
+        </pre>
+
+        <p>In the example above, the <code>sorted()</code> function is a built-in Python function, and the <code>custom_sort()</code> function is user-written to apply a specific sorting order. The combination of both showcases the power of leveraging pre-written code while still writing custom solutions when needed.</p>
+        <footer>
+            <a href="context2.html">Back to Context 2</a> | <a href="index.html">Return to New Website</a>
+        </footer>
+    </div>
+</body>
+</html>

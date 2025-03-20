@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kyte & Tyler's revision website</h1>
+            <p>Click on any of the contexts below to open them:</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="context1.html" font size="2rem">Context 1</a></li>
+                <li><a href="context2.html" >Context 2</a></li>
+                <li><a href="context3.html" >Context 3</a></li>
+                <li><a href="context4.html" >Context 4</a></li>
+                <li><a href="context5.html" >Context 5</a></li>
+                <li><a href="context6.html" >Context 6</a></li>
+                <li><a href="context7.html" >Context 7</a></li>
+                <li><a href="context8.html" >Context 8</a></li>
+                <li><a href="revision sheet.txt" target="_blank">tylers bible - not recommended</a></li>
+                <p id="demo"></p>
+                <script>
+                var countDownDate = new Date("june 4, 2025 8:45:00").getTime();
+                var x = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("demo").innerHTML ="Time Till Exam: " + days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+                }, 1000);
+                </script>
+            </ul>
+        </nav>
+    </div>
+</body>

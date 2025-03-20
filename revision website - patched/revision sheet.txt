@@ -1,0 +1,3044 @@
+#################################################################################
+1.1-computational thinking
+##############################################################################
+1.1.1 -Be able to use top-down, bottom-up and modularisation approaches to solve problems
+top-down:
+
+bottom-up:
+
+modularisation:
+
+
+1.1.2 -Be able to decompose problems by:
+● breaking a problem down into smaller, more manageable parts
+●identifying and describing the main features of a problem or process
+
+
+1.1.3 -Be able to use pattern recognition to: identify and describe trends and similarities within and between problems and processes
+● identify and describe common features between a given problem and existing solutions
+● make predictions and assumptions based on identified patterns
+
+
+1.1.4 -Be able to use abstraction to:
+● identify information that is needed to solve an identified problem
+● filter out unnecessary details at different stages of a problem
+● create a layer of abstraction appropriate to the stage in the problem-solving process
+
+
+#############################################################################################
+
+
+
+
+
+
+
+#########################################################################################################################
+1.2-algorithms
+############################################################################################################
+1.2.1 -Understand what algorithms are and how they are expressed (flowcharts, written descriptions, pseudocode, program code).
+algorithms:
+
+
+
+1.2.2 -Be able to express an algorithm using flowcharts and pseudocode, and understand how to use these when planning a digital solution.
+
+
+1.2.3 -Be able to write algorithms that make use of programming constructs (sequence, selection, iteration).
+
+
+1.2.4 -Understand the purpose of a given algorithm (flowcharts,written descriptions, pseudocode, program code) and how the algorithm works.
+
+
+1.2.5 -Be able to determine the correct output of an algorithm.
+
+
+1.2.6 -Be able to identify and correct errors in an algorithm (flowcharts, written descriptions, pseudocode, program code).
+
+
+#####################################################################################################################
+
+
+
+
+
+
+
+
+
+##########################################################################
+2.1-program data
+######################################################################
+2.1.1 -1 Understand the use of, and need for, data types:
+● string:
+● character:
+● integer:
+● real/float:
+● Boolean:
+
+2.1.2 -Be able to declare and use constants and variables that use appropriate data types.
+
+
+2.1.3 -Understand the use of, and need for, data structures:
+● list:
+● array:
+● dictionary:
+
+
+2.1.4 -Understand how to manage variables within a program, including:
+● use of local and global variables
+o local:
+o global:
+● when local and global variables should be used, and why
+● variable naming conventions
+o meaningful names
+o case (e.g. camelCase, UPPER CASE)
+o underscores (e.g. address_line_1).
+
+
+#################################################################
+
+
+
+
+
+
+
+
+
+###################################################################################
+2.2-operators
+#####################################################################################
+2.2.1 -Understand the purpose of, and how to use, mathematical operators in program code and algorithms (add, subtract, divide, multiply, integer division, modulus).
+o add:
+o subtract:
+o divide:
+o multiply:
+o integer division
+o modulus division
+
+2.2.2 -Understand the purpose of, and how to use, relational operators (==, <, >, <>, <=, >=).
+o ==:
+o  <:
+o  >:
+o <>:
+o <=:
+o >=:
+
+2.2.3 -Understand the purpose of, and how to use, Boolean operators (NOT, AND, OR)
+o NOT:
+o AND:
+o  OR:
+
+
+#######################################################################################
+
+
+
+
+
+
+
+
+
+###########################################################################
+2.3-file handling
+#####################################################################
+2.3.1 -Understand how to use text files for input and output of data
+
+
+
+###########################################################################
+
+
+
+
+
+
+
+
+
+
+#############################################################################
+2.4-program structure
+#######################################################################################
+2.4.1 -Understand how sequence, selection (branching) and iteration are used within programs and algorithms.
+o  sequence:
+o selection:
+o iteration:
+
+2.4.2 -Be able to write, interpret and debug code that makes use of sequence:
+● Determine the most efficient and logical order for actions within a process.
+● Understand the correct order of operations in calculations and processes, to ensure outputs are accurate and errors are avoided.
+
+
+2.4.3 -3 Be able to write, interpret and debug code that makes use of selection (branching):
+● IF, THEN, ELSE, ELSEIF (ELIF)
+● CASE.
+
+
+2.4.4 -Be able to write, interpret and debug code that makes use of iteration:
+● Understand how ‘For’ loops are used to iterate code a set number of times.
+● Understand how ‘While’ loops are used to iterate code while a set criterion is met.
+● Understand how loops are used to iterate code until a set criterion is met.
+
+
+2.4.5 -Be able to declare and call functions and procedures.
+
+
+2.4.6 -Understand how standard searching and sorting algorithms work, and the benefits and drawbacks of each:
+● linear and binary search
+● bubble sort, insertion sort, merge sort
+
+
+##############################################################
+
+
+
+
+
+
+
+
+#####################################################################
+2.5-built-in functions
+##############################################################################
+2.5.1 -Understand the benefits and drawbacks of using pre-written code.
+
+
+2.5.2 -Be able to select and justify the use of pre-written code provided by the Python programming language (e.g. built-in functions, standard libraries).
+
+
+2.5.3 -Be able to write code that makes use of user-written and pre-written code (e.g. built-in functions, standard libraries).
+
+
+#######################################################################
+
+
+
+
+
+
+
+#######################################################################
+2.6-validation and error handling
+#####################################################################
+2.6.1 -1 Understand the need for different types of input validation to handle common and unexpected errors and be able to write, interpret and debug code that makes use of these validation techniques:
+● presence check
+● length check
+● type check
+● format check
+● range check
+● check digit.
+
+
+2.6.2 -Understand the need to develop reliable and robust code
+
+
+#################################################################
+
+
+
+
+
+
+
+
+
+##############################################################
+2.7-maintainable code
+###############################################################
+2.7.1 -Understand how accepted style conventions (such as Python’s PEP 8) and how these are implemented to create readable and maintainable code.
+
+
+############################
+
+
+
+
+
+
+
+
+
+############################################################
+2.8-testing
+############################################################
+2.8.1 -Understand the fundamental importance of testing for all components:
+● software
+● hardware
+● data
+● interfaces
+● resulting service (final product).
+
+
+2.8.2 -Understand the use of testing and quality assurance methodologies to seek out problems and issues:
+● concept testing
+● unit testing
+● boundary testing
+● integration testing
+● performance testing
+● system testing
+● acceptance and usability testing
+● regression testing
+● load/stress testing.
+
+
+2.8.3 -Understand how automated and functional testing tools can be applied to test digital systems and code.
+
+
+2.8.4 -Understand how to apply root cause analysis to solve problems:
+● what it is (the five whys)
+● when to use it
+● how to use it
+● what next
+
+
+2.8.5 -Understand how to construct an effective test plan, including:
+● identifying tests to be carried out
+● describing the purpose of the identified test
+● identifying test data to be used (valid, valid extreme, invalid, invalid extreme, erroneous)
+● describing the expected results.
+
+
+#############################################################################
+
+
+
+
+
+
+
+
+
+#######################################################################
+3.1-moral and ethic issues
+########################################################################
+3.1.1 -1 Understand the ethical and moral issues that an increasing reliance on technology raises, and how organisations and individuals can respond to these challenges:
+● acceptable use
+● autonomous operation
+● changes in societal norms and the behaviour of individuals
+● changes in the culture within an organisation
+● environmental issues
+● globalisation
+● inclusion and diversity
+● monitoring of employees
+● open source and Creative Commons
+● the collection and use of data
+● unequal access to technology and/or digital services.
+
+
+3.1.2 -Understand how organisations and individuals respond to ethical and moral issues when designing and developing digital systems, including:
+● use of guidelines from professional organisations
+- a set of rules to be adhered to by all parties
+● strategic planning and decisions
+- use of a strong sense of ethics
+- stakeholders theory
+● the content of internal policy documents
+- it usage policy
+- ownership policy
+- health and safety
+- privacy policy
+- acceptable use
+- complaints policy
+- safe guarding policy
+- dress code
+- smoking/drugs/alchol
+- diversity and inclusion
+- parental leave
+- sickness/annual leave
+● company culture and how this is established, communicated and sustained
+-
+● whistleblowing
+- people inside the company informing those outside of illicit activitys
+
+
+3.1.3 -Understand how individuals use a range of observational techniques to inform situational awareness:
+● observing normal behaviour
+● awareness of co-workers
+● recognising changing or abnormal behaviour.
+
+
+######################################################
+
+
+1.target audience, effects on user base, 
+2.a set of guidelines for manurisms that employees are expected to follow
+3.fraud,abuse of rights,illegal stuff,mistreatement of employee
+4.good communication between workers as they are in a positive enviroment where they dont feel out of place
+5.humor,outrageuos adlibs
+
+
+
+
+
+##########################################################################
+3.2-emerging trends and technologies
+###########################################################################
+3.2.1 -Understand how developments in digital technologies impact on organisations, individuals and society, including:
+● Internet of Things (IoT)
+o things: the devices themselfs sensors  
+o everything: people data things and proccesses
+● Artificial Intelligence (AI), machine learning and deep learning
+● Augmented Reality (AR) and Virtual Reality (VR).
+
+
+################################################################
+
+
+
+
+
+
+################################################################################
+4.1-legislation
+###################################################
+4.1.1 -Health and safety when working with computers:
+● display screen regulations
+o regular dse assesment
+o regular breaks
+o give a free eye test when requested
+o provide relevant training
+o arrange for glasses if required and provide them for free
+o employee complains of pain or discomfort
+o change to workstation is made
+o replacement or adding of new workstation
+o new employee joins organisations
+● general working environment
+o appropiate facilities toilets washbasins drinking water and somewhere to rest and eat
+o be a healthy work eviroment
+- fresh air
+- enougth space
+o be a safe workplace
+- safe material
+
+● possible risks and prevention
+o take reasonable care not to put others at risk
+  
+
+4.1.2 -Data Protection Act:
+● the principles of the act
+o protects user data 
+● General Data Protection Regulations (GDPR)
+o a better version of the dpa which improves the cover your data recieves
+● marketing consent
+o
+● the rights of the data subject
+● enforcement.
+– Fair and Lawful
+– Purposes
+– Adequacy
+– Accuracy
+– Retention
+– Rights
+– Security
+– International transfers
+
+4.1.3 -Computer Misuse Act:
+● the principles of the act
+o illegal to access a computer without permision cant acccess with intent or modify data.
+● consequences (company and employee)
+o 1-5000 fine or 6 months prison
+- harris getting into the kfc database by accident 
+
+o 2-unlimited fine and/or 5 years prison
+- harris getting into the kfc database and transfering money to his own account
+
+o 3-unlimited fine and/or 5 years prison
+- harris getting into the kfc database and changing user data
+
+o 3A-unlimited and up to 5 years
+- harris getting into the kfc database and causing malicous harm to many users on the system
+- making, supplying or obtaining any artcles that can be used in a malicous act
+
+o 3ZA-unlimited fine and up to 14 years unless on national level can be max of life sentance
+- harris getting into the kfc database and shutting down all the kfc systens
+- unauthorised acts causing or creating risk of serious damage
+
+● employee awareness.
+
+
+4.1.4 -Equality Act:
+● types of discrimination (protected characteristics)
+o age
+- retired
+o disability
+- requires eyes colour checker
+o marital status
+- colleague is a husband 
+o gender reassignment
+- boxing as a man in a female sport
+o pregnancy and maternity
+- job with high risk so child is in danger
+o race
+- a film or theatre production
+o religion/belief
+- a roman catholic church
+o sex
+- a cafe which which requires a certian sex e.g. a maid cafe
+o sexual oritentation
+o direct
+o indirect
+o harrasment
+o victimisation
+● where individuals are protected
+o in workplace and public society
+o when your on transport
+● when to take action against discrimination.
+● how individuals can be discriminated against (direct, indirect,
+harassment and victimisation).
+
+
+4.1.5 -Intellectual Property Act:
+● unregistered designs
+o only protected when someone directly copies or is extremely close to the design
+● registered designs
+o allows you to disspute someone elses design regardless of how it was designed just that is overlaps with yours in some way
+● patents.
+o 
+
+
+4.1.6 -Understand the use of digital technologies for monitoring the workplace:
+● monitoring electronic communications
+● use of secret monitoring
+● employers’ monitoring policies
+● monitoring systems. 
+o key logger
+-logging keystrokes mouse activity and open applications
+
+o video/audio survalience
+- monitoring through webcam/mic or cctv
+
+o gps
+- tracking using satelites to find your location on a global map
+
+o location tracking access badge
+- using audit logs to check where places were accessed
+
+
+4.1.7 -Understand the role of legislation relating to international law and its importance when designing, developing and using digital systems.
+
+
+############################################################################################################
+
+
+
+
+
+
+
+
+
+####################################################################################################
+4.2-guidelines and codes of conduct
+##################################################################################################
+4.2.1 -Understand the purpose and role of codes of conduct produced by professional bodies for the use of digital:
+● British Computer Society (BCS) Code of Conduct
+● The Institution of Analysts and Programmers Code of Conduct.
+
+
+4.2.2 -Understand the guidelines provided in professional codes of practice in terms of:
+● professional responsibilities (quality of work, meeting deadlines, communication, confidentiality, trust)
+● contribution to society
+● safety
+● security and privacy
+● innovation.
+
+
+4.2.3 -Understand the impact that implementing guidelines from professional codes of practice has on organisations and their stakeholders. 
+o enviromental impacts
+- destruction of habitats
+- loss of rare minerals
+- pollution of rivers
+- landfills from e-waste
+- more power = more ghg
+- dispreportinal affects lics
+- more machines means more heat and more power to cool
+- printers use paper
+
+o solutions
+- weee(waste electrical and electronic equipment recycling regulations)
+- switch to green energy
+- reuse/recycle/repair old tech
+- use energy effiecnt lights(LEDs)
+- cycle to work scheme
+- donate to charities
+- use digital copies
+- use enviromental alternatives
+- smart enegery choice e.g. turn off all energy when not in use
+
+
+o ethical impacts
+- working from home
+- mental/physical health
+- computer missuse
+- privacy
+- accesibility
+- digital divide
+
+o solutions
+- data protection act
+- flexible working
+- flexible working stations
+- benefits
+- charitable donations
+- health and safety at work
+- setting out clear conditions for using customer data   
+
+o legislation
+- gdpr/dpa
+- equality act
+- computer missuse act
+- intellectual property act
+- health and safety act
+- can spam
+
+4.2.4 -Understand how guidelines and agreed standards ensure the accessibility and quality of IT systems, including:
+● ISO (international Standards Organisation) standards
+- relatively new-less time to test systems
+- difficult to monitor
+- consequences of a large cyber attack could be devastating
+- 27000 category
+
+● Web Content Accessibility Guidelines (WCAG) 1.0 and 2.0
+- ensure pages transform gracefully on new technology
+- provide clear navigation/navigation mechanicsms
+- percievable-how easily it is percieved by user/customers
+- operable-how easily can the user/customer navigate the website and move around
+- understandable-how easy can you read the page
+- robust-how easy it is to bug or break the page-incase of new technology the data on the website should remain available
+
+● World Wide Web Consortium (W3C®)
+- www is a subsection of the internet
+- http-hyper text transfer protocol 
+- html-hypertext markup link
+- url-uniform recource locator
+- web design and application
+- web architecture
+- semantic web
+- extensive markup launguage technology
+- web of services
+- browser and authorising tools
+
+● Internet Engineering Task Force (IETF)
+- augmented network management
+- iot
+- transport technology
+- security and privacy
+- rfc(request for comment) doesnt get updated unless an error occurs
+
+4.2.5 -Understand the role and implications of acceptable use policies within an organisation.
+- tailored to the needs of the organisation
+- an acceptable user policy might include
+- what monitoring might be carried out
+- activitys not allowed on network or system
+- acceptable and non-acceptable use of social media
+- use networks remotely or off site
+
+#############################################################################################
+
+
+
+
+
+
+
+
+
+
+
+##########################################################################
+5.1-the business enviroment
+##########################################################################
+5.1.1 -Understand the purpose of different types of organisations in a range of sectors:
+● to provide a service
+● to provide a product.
+
+
+5.1.2 -Understand the key areas of organisations and how IT is used to support them:
+● Human Resources
+● Research, Design and Development
+● Logistics
+● Marketing
+● Finance
+● Management.
+
+
+5.1.3 -Understand how digital supports the business needs of organisations.
+● the use of digital to enable automated stock/inventory control:
+o how software is used
+o how hardware is used
+o the processes carried out
+o how different parts of the system communicate with each other.
+● the use of traditional and cloud-based technologies and services to communicate and collaborate with internal and external stakeholders and facilitate collaboration.
+
+
+5.1.4 -Understand the factors that determine the feasibility of a digital project:
+● benefits and drawbacks
+● risks, constraints and dependencies.
+
+
+5.1.5 -Understand how digital is used to meet user needs and ensure quality of product/service:
+● appropriate and effective functionality
+● reduction of pain points
+● accessibility considerations
+● compatibility
+● availability
+● good user experience
+● cultural awareness and diversity
+
+
+5.1.6 -Understand how the characteristics of end users affect the use and characteristics of digital technologies to access a service or product:
+● age
+● skills
+● education level
+● internal/external audience
+● level of technical knowledge
+● additional needs (e.g. users with sight or hearing loss).
+
+
+###################################################################
+
+
+
+
+
+
+
+
+##########################################################################################################################
+5.2-digital value to business
+########################################################################################
+5.2.1 -Understand the importance of digital within organisations, and the ways in which digital is used to add value to a company:
+● engagement of customers, users and other stakeholders
+● provision of products and services to customers
+● measurable value (reducing overheads, improving efficiency, facilitating growth, recruiting talent)
+● supporting processes and business models (product design, manufacturing control, data modelling, local and remote working)
+● context and market environment (stakeholders, user profiling, personalised/appropriate content, data).
+
+
+###############################################################################################
+
+
+
+
+
+
+
+
+
+################################################################################
+5.3-technical change and management
+######################################################################
+5.3.1 -Understand the factors that trigger change in organisations:
+● Planned for factors
+o adding additional features and/or services
+o diversification
+o scaling
+o rebranding
+o adoption of new technologies
+o changes in legislation
+o response to competition.
+● unforeseen or previously unpreventable factors
+o crisis (natural disasters, terrorism, cyber attacks)
+o zero-day vulnerabilities
+o data corruption
+o system failures.
+
+
+5.3.2 -Understand the technical change management process, including:
+● identifying the changes to be made
+● identifying and communicating potential risks and desired impact(s) to stakeholders
+● configuration of the new system or process
+● method of implementing change (parallel, phased, direct, pilot)
+● documenting the change process
+● importance of rollback planning
+● importance of ensuring reproducibility of performance and outcome
+● traceability of requirements throughout the development lifecycle.
+
+
+5.3.3 -Understand how organisations respond to, prepare for, manage and reinforce change (relevant to digital) in a range of contexts:
+● economic, banking and financial
+● environmental
+● legal
+● people
+● political
+● regulatory
+● social
+● technological.
+
+
+5.3.4 -Understand the benefits and drawbacks of technical change in organisations in relation to:
+● productivity
+● communication
+● security
+● replacing existing products
+● updating or changing processes
+● support for stakeholders
+● costs
+● stakeholder experience
+● company reputation.
+
+
+#########################################################
+
+
+
+
+
+
+
+
+
+##########################################################################
+5.4-risks in a business context
+#######################################################################
+5.4.1 -Understand the potential risks to organisations of use of digital systems and technologies:
+● security breaches
+● privacy breaches
+● regulatory and legal non-compliance
+● system failure
+● audience exclusion
+● emerging rival services (mobile devices, digital download and cloud services)
+● rapid changes in technology and trends (education and transport sectors).
+
+
+5.4.2 -Understand the potential impact of identified risks on the organisation and its stakeholders.
+
+
+####################################################################
+
+
+
+
+
+
+
+
+
+#######################################################################
+6.1-data and information in organisations
+###########################################################################
+6.1.1 -Understand the differences and links between data, information and knowledge.
+
+
+6.1.2 -Understand why organisations need data and information and how they are used:
+● analysing market trends to identify patterns which inform decisions
+● system performance analysis
+● user monitoring
+● targeted marketing
+● informed decision making (strategic, tactical and operational)
+● threat/opportunity assessment (break-even, predictive models, cost analysis, market trends).
+
+
+6.1.3 -Understand how data is generated:
+● human generated
+● artificial intelligence/machine learning
+● sensors
+● Internet of Things (IoT)
+● transactional data
+
+
+##########################################################
+
+
+
+
+
+
+
+
+
+
+#############################################################################################
+6.2-data formats
+#############################################################################################
+6.2.1 -Understand the forms that data can take and the implications this has on use and analysis:
+● data types (date, integer, real, character, string, Boolean)
+● common forms of data format (JSON, fixed-width text file, CSV, ASCII, XML).
+
+
+6.2.2 -Understand the difference between file-based and directory-based structures, and how they are used in data analysis.
+
+
+#######################################################################################
+
+
+
+
+
+
+
+
+#########################################################################################
+6.3-data systems
+#########################################################################################
+6.3.1 -1 Understand the features and functions of data systems and their importance to organisations:
+● data wrangling (structure, clean, enrich, validate, output)
+● core functions (input, search, save, integrate, organise (index), output, feedback loop)
+● data entry and maintenance (online data entry, risk of data entry errors, time to create the entry screen and enter data)
+● visualisation (graphs/charts, data tables, reports, infographics).
+
+
+6.3.2 -Understand the purpose of business information tools and their use in business (e.g. business intelligence software, financial planning and analysis, Customer Relationship Management (CRM)).
+
+
+6.3.3 -Understand the features of different data models and how organisations use them to organise data:
+● conceptual data model
+● logical data model
+● physical data model
+● hierarchical database model
+● relational model.
+
+
+##############################################################
+
+
+
+
+
+
+
+
+
+
+#######################################################################################
+6.4-data management
+#######################################################################################
+6.4.1 -Understand factors that determine how data is gathered, entered and maintained:
+● the ‘Six Vs’ (volume, variety, variability, velocity, veracity, value)
+● data assurance/quality (validation, verification, reliability, redundancy)
+● types of data
+● research population
+● qualitative data and quantitative data
+● legislation and regulatory compliance
+● ethics
+● organisational factors (time, skills, cost).
+
+
+6.4.2 -Understand the purpose of data analysis tools and their use in business (data warehousing, data lakes, data mining, reporting).
+
+
+6.4.3 -Understand the role of metadata classification in defining the meanings of data.
+
+
+6.4.4 -Understand the use of data/access entitlements/permissions management, and its impact on organisations and stakeholders:
+● authorisation
+● privileges
+● access rights
+● rules.
+
+
+6.4.5 -Understand how data can be accessed and managed across different platforms:
+● the role and use of Application Programming Interfaces (APIs) in managing, accessing and using data.
+
+
+6.4.6 -Understand the concepts of data at rest, data in use and data in motion, and when each is used.
+
+
+#################################################################################################
+
+
+
+
+
+
+
+
+
+#####################################################################################################
+7.1-physical enviroments
+####################################################################################################
+7.1.1 -Understand the features and characteristics of different types of physical computer system:
+● personal computers
+● mobile devices
+● servers
+● smart/internet-enabled devices
+
+
+7.1.2 -Understand the features and characteristics of hardware and peripherals used in physical computer systems:
+● input devices
+● output devices
+● processors
+● memory
+● secondary storage devices (internal and external)
+● motherboard/mainboard
+● cooling
+● sensors.
+
+
+7.1.3 -Understand the purpose and functions of software used in computer systems:
+● operating systems
+o batch operating system
+o multitasking/time-sharing operating system
+o real-time operating system
+o network operating system
+o mobile operating system
+● utility software
+● application software
+● code development tools (IDEs, debuggers).
+
+
+7.1.4 -Understand the benefits and drawbacks of software, hardware and peripherals in different contexts.
+
+
+7.1.5 -Understand how physical data storage and recovery systems work, their features, benefits and drawbacks:
+● redundant array of independent disks (RAID)
+
+
+o RAID 1:mirrored - same on both disks 
++ read performace increased
+- rate latency increased
+
+o RAID 5:striped w/ parity
++ very fast to read
+- recover is slow because of calcualtions from parity
+
+o RAID 10:raid 1 with raid 0
++ quick recovery
+- expensive
+
+● network attached storage (NAS)-accesses files in blocks
+o a storage device attached to a network that acts as a central storage for files can only be accessed by authorised devices
+- configured with data transfer protocols(DRPs)
+
+A-additional storage can be added easily
+o data recovery is easier
+
+D-no inbuilt option to recover deleted files
+
+● storage area network (SAN).-accesses files as files
+o
+
+A-
+
+D-
+
+
+###############################################################
+
+
+
+
+
+
+
+
+
+######################################################################################################
+7.2-networks
+###############################################################################################
+7.2.1 -Understand the benefits and drawbacks of connecting devices to form networks.
+● networks:many devices connected to communicate and share resources
+● benefits:
+o global accessibility
+o manageability
+o communication
+o ease of data exchange
+o security
+
+● drawbacks:
+o implementation costs
+o security
+o servers
+o maintainibility
+o upgrade costs
+
+7.2.2 -Understand the features, characteristics, benefits and drawbacks of wireless connection methods.
+●wi-fi(3g,4g,5g,6g)
+●bluetooth
+●features & charecteristics:
+o performance measurement
+o scalability
+o application and web content filtering
+o network management systems
+o prioritisation of applications
+o load balancing
+o network access control(NAC)
+o mobile device management
+o role based access control
+
+●benefits:
+o share resources easily
+o easy to add devices
+o easy to use from any location
+o bluetooth does not require line of sight
+o scalability
+
+●drawbacks:
+o security-easier for hackers to intercept
+o can be blocked by obstacles
+o has a range of effect
+o bluetooth is only good for short distances
+o management
+
+
+7.2.3 -Understand the features, characteristics, benefits and drawbacks of wired connection methods.
+● fibre optic:
+-transforms digital signals into pulses of light and fires them down a flexible glass tube
+
+o benefits:
+-reliable
+-secure
+
+o drawbacks:
+-expensive
+-fragile
+
+● cable:
+-electrons passed through and turned into digital signals cat 5 cables and ethernet cables
+
+o benefits:
+-cheaper
+-durable
+
+o drawbacks:
+-disrupted by emp
+-low grade copper causes transmission issues
+-degrades over distance
+
+● digital subscriber line:
+-uses a phone lines to carry internet-signals
+
+o benefits:
+-it wont drop the signal
+-very cheap
+-available nearly everywhere
+
+o drawbacks:
+-cant run 2 at once
+-weather can affect it
+
+
+
+
+●benefits:
+-its often cheaper
+-more secure than wireless netowrks
+-more prone to physical obstacles
+-
+
+●drawbacks:
+-can reach longer distances than wireless
+-more expensive over distances
+
+
+7.2.4 -Understand different types of network:
+● LAN
+● WAN
+● PAN.
+
+
+7.2.5 -Understand the concepts of bandwidth and latency, and their effect on the performance of networks and connected systems.
+●
+
+●
+
+7.2.6 -Understand the concept of different network models:
+● client-server
+o desc: 
+- a server connected to many clients
+o image: 
+- a server connected to many clients
+o charecteristics:
+- its a server that provides services applications to clients
+o benefits: 
+- centralised everything can be updated and installed in 1 location
+- saves proccessing power on personnel device
+o drawbacks: 
+- if the server fails all the clients will go down
+o ideal use case: 
+- organisations, webservers,online games
+
+● thin client
+o desc: 
+- a server connected to many thin clients most proccessing done by server
+o image: 
+- a server connected to many thin clients
+o charecteristics:
+- its aservr that does all the functions on the thin client so the client does next to no proccessing
+o benefits: 
+- scalable easy to scale
+o drawbacks: 
+- will be expensive to increae capacity of server
+o ideal use case: 
+- large organisations
+● peer-to-peer
+o desc: 
+- client to client 
+o image: 
+- clients connected to many clients
+o charecteristics:
+- 
+o benefits: 
+- 
+o drawbacks: 
+- 
+o ideal use case: 
+- 
+
+
+7.2.7 -Understand the characteristics of network topologies:
+● logical vs physical
+o physical
+- structure of actual components
+o logical
+- how data passes through your network and between devices
+● star
+o desc: 
+- everything connected to a central switch
+o network model:
+- client-server network model
+o image:
+- everything connected to a central switch
+o charecteristic:
+- everything is connected to a main switch
+o benefits:
+- easy to set up
+- scalable
+o drawbacks:
+- single point failure
+- expensive
+- slower if lots of traffic
+o ideal use case:
+- a lot of files off clients
+
+● mesh
+o desc: 
+- when all the devices on a netowrk are connected together
+o network model:
+- peer-to-peer, client to server
+o image:
+- all the devices are connected to eachother
+o benefits:
+- not 1 point failure
+- cheap to set up no server required
+- high volume of traffic
+- secure
+- robust
+o drawbacks:
+- hard and tediouse to set up
+- scalableility
+- maintainability
+- redudancy
+o ideal use case:
+- wan
+
+● tree
+o desc: 
+- a star and bus network toegether
+o network model:
+- tree
+o image:
+- a central wire connected to switches connected to clients
+o charecteristic:
+- main central network cable switch nodes came off connected to clients
+o benefits:
+- indidivdual segments have point to point wiring
+- scalable
+- network can be reconfigured to meet needs
+- 1 node wont make it fail
+- proviceds heiriaca  and cental data arrangement to the node
+o drawbacks:
+- single point failure/2 point failure
+- limited network speed
+- limited length of sgement
+- bigger the netork it becomes more complicated to configure
+- costly and consuming to implement
+o ideal use case:
+- have multiple sections of a busniness that need to communicate together
+
+● VLAN
+o desc: 
+- 
+o network model:
+-
+o image:
+-
+o charecteristic:
+-
+o benefits:
+-
+o drawbacks:
+-
+o ideal use case:
+- 
+
+
+7.2.8 -Understand the role and characteristics of common components of a network:
+● server
+o 
+● internet connection/internet backbone
+o 
+● router
+o 
+● network switch
+o 
+● client
+o 
+
+
+7.2.9 -Understand the seven-layer OSI model to describe how applications communicate over a network, including the function and related protocols of each layer:
+● Application Layer deals with end-user applications.
+● Presentation Layer handles data translation and encryption.
+● Session Layer manages sessions between applications.
+● Transport Layer ensures reliable data transfer.
+● Network Layer handles routing and logical addressing.
+● Data Link Layer manages data transmission between devices.
+● Physical Layer deals with the physical transmission of data over the medium.
+
+
+7.2.10-Understand the four-layer TCP/IP model to describe how applications communicate over a network, including the function and related protocols of each layer:
+● application layer
+● transport layer
+● internet layer
+● network access layer.
+
+
+7.2.11-Understand the role of data packets in transmitting over a network, including:
+● contents and structure of a data packet
+● role of the components of a data packet
+● packet switching
+● error handling – Cyclic Redundancy Check (CRC)
+
+
+7.2.12-Understand the role of common network protocols including:
+● DHCP
+o
+● DNS
+o
+● FTP
+o
+● HTTP / HTTPS
+o
+● NTP
+o
+● POP3 / IMAP4 / SMTP
+o
+● TCP/IP
+o
+  
+
+7.2.13-Understand how physical, virtual and cloud environments, along with networks, are used in combination, including the Internet of Things (IoT), to solve problems and meet the needs of organisations and their stakeholders.
+●
+
+●
+
+●
+
+##############################################################################################
+
+    
+
+
+
+
+####################################################################################
+7.3-virtual enviroments
+################################################################
+7.3.1 -Understand the key features of virtual environments:
+● increased security
+● managed execution
+● sharing
+● aggregation
+● emulation
+● isolation
+● portability. 
+
+
+7.3.2 -Understand the benefits and drawbacks of the use of virtual environments for organisations in a range of contexts.
+
+
+###########################################################################################
+
+
+
+
+
+
+
+
+#############################################################
+7.4-cloud enviroments
+##############################################################
+7.4.1 -Understand the concepts of cloud computing deployment in terms of:
+● applications
+● data
+● runtime
+● middleware
+● operating system
+● virtualisation
+● servers
+● storage
+● networking.
+
+
+7.4.2 -Understand common cloud delivery models and the way in which responsibility and ownership of resources are distributed between the subscriber and service provider:
+● IaaS (Infrastructure as a Service)
+o subscriber (applications, data, runtime, middleware, operating system)
+o service provider (virtualisation, servers, storage, networking)
+● PaaS (Platform as a Service)
+o subscriber (applications, data)
+o service provider (runtime, middleware, operating system, virtualisation, servers, storage, networking)
+● SaaS (Software as a Service)
+o subscriber (user only)
+o service provider (applications, data, runtime, middleware, operating system, virtualisation, servers, storage, networking).
+
+
+7.4.3 -Understand the concept of DaaS (Data as a Service) in terms of:
+● data science platforms
+● dashboards
+● business information tools
+● data lakes
+● databases
+● file systems.
+
+
+7.4.4 -Understand how DaaS (Data as a Service) is used by organisations, and the benefits and drawbacks it provides for organisations and their stakeholders.
+
+
+7.4.5 -Understand the concept of cloud sourcing and cloud portability, and the implications for service providers and organisations (subscribers).
+
+
+###################################################################################
+
+
+
+
+
+
+
+###############################################################################################
+7.5-resilience of enviroment
+#####################################################################################
+7.5.1 -Understand the need to ensure digital environments are resilient, and the impact on organisations and stakeholders if this is not achieved.
+
+
+7.5.2 -Understand methods used to improve the resilience of digital environments:
+● data and system redundancy
+● back-up systems
+● hot, cold and warm sites
+● data back-up and recovery procedures
+● device hardening
+
+
+7.5.3 -Understand the benefits and drawbacks of methods used to improve the resilience of digital environments. 
+
+
+##########################################################################################
+
+
+
+
+
+
+
+
+
+
+###########################################################################
+8.1-security risks
+###################################################################
+8.1.1 -Understand the importance of maintaining privacy and confidentiality of an organisation’s information, as well as that of stakeholders, including:
+● information about salaries
+● employee benefits/perks
+● client lists
+● trade secrets
+● sales numbers
+● customer information
+● news about pending restructuring.
+
+
+8.1.2 -Understand the potential impact on an organisation of failing to maintain privacy and confidentiality.
+
+
+8.1.3 -Understand potential technical threats and vulnerabilities to systems, data and information, including:
+● botnets
+● distributed denial-of-service (DDoS)
+● hacking
+● malware (including ransomware)
+● social engineering (pharming, phishing)
+● insecure Application Programming Interfaces (APIs)
+● use of ad hoc or open networks
+● eavesdropping/man-in-the-middle attacks.
+
+
+8.1.4 -Understand potential physical vulnerabilities to systems, data and information, including:
+● location of system or asset
+● circumstances of use
+● characteristics of users/community
+● system or asset layout
+● system or asset design/robustness. 
+
+
+8.1.5 -Understand potential human threats and vulnerabilities to systems, data and information, including:
+● human error
+● malicious employees
+● disguised criminals
+● targeted attack.
+
+
+###########################################################################
+
+
+
+
+
+
+
+
+
+
+#############################################################################################
+8.2-threat mitigation
+##############################################################################################
+8.2.1 -Understand the concept of the CIA (confidentiality, integrity, availability) and how it can be applied to define security aims.
+
+
+8.2.2 -Understand the interrelationship between security, identity, confidentiality, integrity, availability, threat, vulnerability and risk management within a business context.
+
+
+8.2.3 -Understand processes and procedures to mitigate threats and ensure security, including:
+● air gapping
+● anti-virus and anti-malware programs
+● certification of APIs
+● configuration and management of software-based access control
+● device hardening
+● encryption (hashing, asymmetric, symmetric)
+● user access restrictions
+o usernames, passwords and passphrases
+o data access levels/permissions
+o physical access control/restrictions
+● multi-factor authentication (possession-based, biometric, knowledge, location-based)
+● firewalls
+● password managers
+● policy, policy enforcement and training
+● SYN cookies
+● use of Virtual Private Networks (VPNs)
+● security testing (penetration testing, white/grey hat hackers).
+
+
+###################################################################
+
+
+
+
+
+
+
+
+
+
+
+#######################################################################################################################
+1.1-Understand the stages of the software development life cycle and be able to apply them to digital projects
+###########################################################################################
+Life cycle stage: Research and familiarisation
+● Explore and understand the initial client request/project brief.
+● Carry out research relating to the specific context and market environment, including:
+o common problems and risks
+o current uses of hardware and software within the identified context
+o newly emerging technologies
+o existing or potential solutions and how these meet different user needs
+o industry/situational-specific guidelines and regulations.
+● Identify shortfalls in own skills and knowledge and plan learning opportunities to make up for these shortfalls.
+Life cycle stage: Planning and requirement analysis
+● Identify business requirements such as new software and amending/increasing security.
+● Assess the measurable value of the proposed solution in relation to:
+o the user
+o the client/business.
+● Apply computational thinking (decomposition, pattern recognition and abstraction) to split the problem into discrete objects.
+● Define the functional and non-functional requirements of the solution.
+● Define the key performance indicators (KPIs) of the solution.
+● Identify the performance constraints in digital projects.
+● Create user acceptance criteria.
+● Schedule projects (tasks, subtasks, milestones).
+● Allocate appropriate resources to digital projects.
+● Estimate costs of digital projects.
+● Choose programming language(s) for digital projects based on key criteria,
+including:
+o suitability for the proposed task
+o organisational policy
+o scalability
+o security
+o availability of trained staff
+o costs
+o reliability.
+o Identify risks and explore ways to mitigate these risks.
+Life cycle stage: Performing a user analysis
+● Select and use business analysis models to aid problem solving, including:
+o user stories
+o activity diagrams
+o mind maps
+o product road maps
+o process diagrams
+o entity relationship diagrams.
+Life cycle stage: Designing the product
+● Create interface designs.
+● Plan how to solve key problems (design algorithms).
+● Create data requirement designs.
+● Create a proof of concept.
+● Produce initial testing schedule.
+Life cycle stage: Developing and testing the product
+● Create a prototype.
+● Plan and implement appropriate testing, including:
+o module testing
+o system integration testing
+o automated testing
+o user testing and feedback.
+Life cycle stage: Deploying/implementing the product
+● Install and configure the product.
+● Update the product.
+Life cycle stage: Maintenance
+● Provide system support.
+● Provide user support.
+● Carry out bug fixing.
+● Arrange/carry out user training.
+● Release updates to enhance the product.
+● Understand the value to the organisation of the digital product and the role the software development life cycle plays.
+
+
+##############################################################################################
+
+
+
+
+
+
+
+
+
+###################################################################################################################
+1.2-Understand the roles and responsibilities of the digital team within the software development life cycle
+#####################################################################################
+● Product owner/client – sets and communicates the requirements of the product.
+● Scrum master – facilitates the team to maintain team cohesion, ensuring the team has access to resources they require.
+● Technical lead – provides the technical guidance and support for the project team.
+● Project manager – plans, organises and manages (budget, scope, schedule, risk and quality) on all phases of a project.
+● Software development team:
+o systems analyst – analyses the current system and provides the requirements for the new system; uses the requirements to design the new software solution.
+o UX/UI designer – interviews users, researches market data and gathers findings to design the user interface.
+o software developer/engineer – uses the designs to create and maintain a working solution that is usable, secure and stable.
+o operations engineer – ensures the stability of the product.
+o security engineer – ensures the security of the product.
+● Software testers – responsible for the quality assurance of the software and development.
+
+
+############################################################################################
+
+
+
+
+
+
+
+
+############################################################################################################################################
+1.3-Understand the key features of, and be able to select, appropriate project methodologies when developing a software solution
+################################################################################################
+Key features of Agile:
+● Incremental delivery model:
+o sprint
+o epic
+o story
+o spikes.
+● Emphasis on producing high-quality products, with initially limited functionality.
+● Each increment delivers additional functionality.
+● Requirements can be continually altered throughout the project.
+● Can lack formal documentation.
+● Users/clients see working products at each iteration.
+● Cost-effective method to get an initial product to market.
+● Cancelled/partially completed projects will still result in some usable code/product(s).
+Key features of Scaled Agile:
+● Expanded incremental delivery model:
+o sprint
+o epic
+o story
+o spikes
+o product increments.
+● Emphasis on producing high-quality products with initially limited functionality.
+● Each increment delivers additional functionality.
+● Requirements can be continually altered throughout the project.
+● Provides cohesive reporting.
+● Users/clients see working products at each iteration.
+● Cost-effective method to get an initial product to market.
+● Cancelled/partially completed projects will still result in some usable code/product(s).
+● Final iteration focuses on stability. Key features of Waterfall:
+● Rigidly structured with systematic steps.
+● Progress measured through the number of artefacts completed.
+● High initial costs with slower return on investment.
+● Products cancelled during early stages may result in no usable code/product(s).
+● Limited user/client interaction.
+● High importance placed on documentation. Key features of Rapid Application Development (RAD)
+● Focus on quick creation of prototypes, which are systematically improved.
+● Emphasis on developing all features first and quality second.
+● Users/clients may see only partially working products or mock-ups during early iterations.
+● Relies heavily on reuse of previously developed code.
+● Suitable for small- to medium-scale projects. Key features of LEAN:
+● Emphasis on reducing ‘waste’ in software (and projects), which may include:
+o unnecessary or incorrect features
+o repeated tasks
+o unnecessarily complex solutions
+o ineffective communication
+o unnecessary changes.
+● Decisions are made last minute to reduce chance of waste.
+● Short iteration cycles with fast delivery of working versions.
+● Emphasis is placed on producing iterations that are fit for use, and not specifically in delivering all features or requirements.
+● Suitable for projects with small teams and when resources are limited.
+● Understand features and approaches of user-centred design (UCD) and how it is used within a software development life cycle:
+o considerations for UCD:
+– Who is the user?
+– What does the user want to achieve by using the product?
+– How does the user interact with the product?
+– When does the user interact with the product?
+– Why is the product being used?
+– What is the user experience?
+o characteristics of UCD (empathetic, iterative, interdisciplinary).
+o stages of the UCD iterative approach:
+– Understand the context of use.
+– Specify the user requirements.
+– Design the solution.
+– Assess against requirements
+
+
+##################################################
+
+
+
+
+
+
+
+
+######################################################################################################
+1.4-Understand and define the functional and non-functional requirements of a software solution
+##########################################################################
+● Understand the concept of ‘secure by design’ and how this influences the decisions made regarding functional and non-functional requirements.
+● Understand and define functional requirements of a software solution:
+o the inputs required
+o the data needed
+o the data processing that must take place
+o the logic of the system
+o the deployment and usage platforms for the software.
+● Understand and define non-functional requirements of a software solution in terms of:
+o security considerations
+o required accessibility features
+o scalability requirements
+o key performance indicators and metrics in relation to:
+– responsiveness
+– load handling
+– reliability
+o user acceptance criteria.
+● Understand the use of ‘spike testing’ as an early product-testing method to establish requirements and determine the extent of the problem and the required scope of a software solution.
+
+
+#############################################################################################
+
+
+
+
+
+
+
+
+
+################################################################################################################
+1.5-Investigate the current and potential uses of emerging technologies and how they impact on industries
+#################################################################################
+Investigate the impact on software development of emerging technologies such as:
+● operational technology (OT)
+● artificial intelligence (AI) and virtual intelligence (VI)
+● conversational AI
+● the Internet of Things (IoT)
+● machine learning
+● object recognition
+● biometrics
+● computer vision
+● robotics
+● cloud services and platforms
+● blockchain
+● data lakes and data warehousing
+● drones
+● 3D printing
+● 5G networks
+
+
+#########################
+
+
+
+
+
+
+
+
+
+###########################################################################################################################################
+1.6-Identify and be able to address personal training needs that can boost job performance during the software development process
+##########################################################################################################
+● Ensure the software developer is able to complete the required solution:
+o Identify what further knowledge is needed.
+o Identify what new skills are needed.
+o Determine if the software developer has the ability needed to complete
+the required solution.
+● Use different methods to address the personal training needs required to enable completion of the project:
+o Undertake coaching from a professional or peer.
+o Learn new skills on the job.
+o Carry out self-study.
+o Use online professional forums.
+o Sign up to internet workshops for additional training.
+
+
+##########################################################
+
+
+
+
+
+
+
+
+
+############################################################################################
+2.1-Investigate the legal and regulatory requirements that apply to developing software
+###############################################################
+● Investigate and apply legal and regulatory considerations appropriate to the context and market environment in which they are developing software:
+o intellectual property rights and licenses
+o consumer protection
+o age ratings and classifications
+o advertising laws
+o data protection and privacy
+o copyright and patent
+o gambling legislation
+o responsibilities concerning staff and employment practices
+o territorial restrictions
+o system security
+o equality and diversity.
+● Investigate and apply standards for software development:
+o ISO/IEC/IEEE 90003:2018
+o W3C.
+● Investigate and consider ethical implications that apply to software
+development:
+o codes of conduct
+o professional practice
+o software licensing
+o inclusion and diversity.
+
+
+################################
+
+
+
+
+
+
+
+
+############################################################################
+2.2-Identify and manage risks that apply to software development
+###################################################
+● Assess the potential risks associated with a developing a software product appropriate to the context and market environment in which it is being developed in terms of:
+o data and system security (malicious vs accidental damage)
+o compatibility with other systems
+o speed of development
+o meeting functional and non-functional requirements
+o meeting key performance indicators (KPIs)
+o legal and ethical considerations
+o user engagement
+o product reach
+o assessment of risk (likelihood vs seriousness)
+o potential impact of risk
+o potential ways to mitigate identified risks
+o contingency planning
+o ongoing monitoring
+● Investigate policies and procedures that apply to software development to manage and mitigate risks:
+o backup
+o security
+o confidentiality, integrity and availability (CIA)
+o personnel, skills and training
+o business continuity planning
+o disaster recovery planning.
+● Be able to make and justify software development decisions and recommendations based on effective assessment of risk vs reward in relation to the context and market environment in which they are developing software.
+
+
+#######################################################################################################
+
+
+
+
+
+
+
+
+
+###########################################################################################
+3.1-Understand and evaluate the reliability of different sources of knowledge
+########################################################
+● Use different sources to find reliable information:
+o Use search engines to find reliable websites.
+o Read wikis.
+o Read blogs.
+o Read academic papers.
+o Talk to peers.
+o Join forums.
+o Look at code comments.
+o Use code repositories.
+● Evaluate the reliability of different sources:
+o Reputation – find out who the author is and whether they are credible.
+o Understand bias – sources written by a particular individual/organisation.
+o Look at the evidence used to support the content of the digital source.
+o Cross-referencing/triangulation – compare to other sources.
+o Check how current the content is – note the date website was last updated.
+
+
+############################################################################
+
+
+
+
+
+
+
+
+########################################################################################################################
+3.2-Select and use techniques to obtain qualitative and quantitative data to be able to evaluate software solutions
+###########################################################################################
+● Use verbal feedback (formal and informal).
+● Create and deliver surveys/questionnaires.
+● Select and use performance and use data.
+● Conduct user observation and complete observation records.
+● Create a focus group that represents a cross-section of the target audience.
+● Conduct interviews to gather individual thoughts on a software solution.
+● Use peer mentoring.
+● Use formal line management and appraisal procedures.
+
+
+########################################################
+
+
+
+
+
+
+
+
+
+###############################################################
+4.1-Understand the use of common design approaches
+#########################################
+● Be able to use critical thinking in order to select appropriate design approaches when developing a software product, and apply them within a larger project methodology.
+● Understand features and approaches of function-orientated (top-down) design:
+o how data flows through the system
+o systems made up of many sub-systems (functions)
+o data flow diagrams to show how each function handles or changes the data
+o problems broken down logically (divide and conquer), based on what each function should do within the whole system.
+● Understand features and approaches of object-oriented programming (OOP) design:
+o core concept of making code reusable through standard OOP structures (methods, classes, objects/instances)
+o characteristics of OOP (encapsulation, data abstraction, polymorphism and inheritance)
+o common OOP design patterns (creational, structural, behavioural).
+● Understand features and approaches of data model design:
+o visualisation of the data needed and how it will be organised
+o common data models (conceptual, logical, physical, hierarchical relational)
+o common data modelling tools:
+– entity–relationship model (ER model)
+– Unified Modeling Language (UML).
+● Understand features and approaches of test-driven development (TDD):
+o core concept that each new feature starts by writing a test that defines the improvements or function of that feature
+o common approaches to test-driven development:
+– add a test
+– run all tests until the new test fails
+– write some code
+– run tests and refactor code
+– repeat.
+● Understand features and approaches of behaviour-driven development (BDD):
+o core concept that development is informed by the required behaviour
+of a software unit which is specified before coding starts
+o desired behaviours must have business value and relate to specified requirements
+o common behaviour specification structure (title, narrative, acceptance criteria).
+● Understand features and approaches of functional design:
+o core concept that a program is built and structured as a set series of modules that perform a single defined process/function
+o characteristics of functional programming (recursion, closures, first class functions, higher order functions, anonymous functions, currying)
+o common components of functional design (arguments, statements, blocks, procedures, functions/sub-routines).
+
+
+#############################################################################################################
+
+
+
+
+
+
+
+
+
+#######################################################################################
+4.2-Understand and select platforms used for source code and content management
+#############################################################
+● Understand the features of different software development platforms used at different stages of developing a software product:
+o coding
+o repositories
+o branching
+o building
+o testing
+o deployment.
+● Understand the differences between proprietary and open source platforms and how these may affect software design.
+● Understand the process required to manage the development workflow (Git flow, GitHub flow).
+● Understand the differences between different platforms and be able to make informed decisions about which to use and when, in relation to:
+o target audience
+o budget
+o technical features
+o staff and training
+o ease/speed of development
+o platform updates
+o security
+o reliability
+o performance
+o compatibility.
+
+
+##################
+
+
+
+
+
+
+
+
+###############################################################
+4.3-Understand and be able to design a software solution
+########################################
+● Understand and apply user experience (UX) design principles:
+o consistency to ensure a product is intuitive for the user, aesthetically pleasing and promotes brand recognition
+o information hierarchy to navigate the product more easily
+o visual hierarchy to enable more important content to stand out
+o confirmation to ensure the user is aware of any actions performed and their impact
+o user control to allow navigation of the product, efficient workflow and error correction
+o accessibility to ensure the product is appropriate for a wide range of users.
+● Understand and apply user interface (UI) design principles:
+o wireframes
+o style guides
+o clickable prototype.
+● Understand the features of content management systems and how they are used during design and development:
+o search engine optimisation (SEO)
+o page/screen management
+o social media integration
+o analytics tools
+o workflow management
+o publishing controls
+o security features and management
+o versioning and rollback
+o content repositories
+o open APIs
+o multilingual support
+o support.
+● Create program designs using accepted conventions:
+o pre-defined code
+o flowcharts using standard BCS symbols
+o pseudocode
+o control structures (sequence, selection/branching, iteration)
+o data types
+o data validation
+o data structures.
+● Understand considerations when selecting assets (graphics, audio, video, code) to be used in software design, including:
+o file types
+o file size
+o compression
+o streamed or encoded audio
+o streamed or embedded video
+o use of metadata
+o quality required
+o bandwidth and storage available
+o target platform.
+● Understand the features of different target platforms and how they affect the design and development of a software solution:
+o operating systems
+o file systems
+o server and other infrastructure (physical, virtual)
+o programming language stack
+o mobile and web.
+● Understand how and when to use databases to support software solutions:
+o user management
+o e-commerce tasks (stock, order processing, page personalisation)
+o diagnostics
+o performance analysis.
+● Create database designs to support software solutions using:
+o data dictionary/library
+o entity relationship diagram (ERD)
+o normalisation to third normal form.
+● Identify and understand network integration points:
+o which data is processed locally, e.g. user input for a computer game
+o which data is processed remotely, e.g. actions of all players in multiplayer environments
+o how data is transferred between local and remote sources, e.g. remote system calls
+o how local and remote systems will be connected, e.g. type of network, combination of networks
+o system boundaries to identify which tasks are carried out locally or remotely
+o which external systems to integrate with, e.g. OPTA for sports data.
+
+
+#######################################################################
+
+
+
+
+
+
+
+
+##########################################################################
+5.1-Understand the reasons for using collaborative techniques
+###########################################
+● Use team working on common projects that allows for:
+o a reduction in development time
+o better communication
+o sharing of knowledge
+o development of software development skills
+o code reviews
+– paired programming
+– informal walkthroughs
+– formal inspections.
+● Understand when to collaborate and when working independently is more appropriate.
+
+
+####################################################################################
+
+
+
+
+
+
+
+
+
+
+########################################################################################################################
+5.2-Understand and be able to select appropriate technologies used in a social and collaborative environment
+################################################################################
+● Collaborative technologies to aid working as part of a team:
+o communication (e.g. email, instant messaging)
+o resource management (e.g. cloud storage, back-up, synchronisation)
+o knowledge (collaboration hubs, wikis, community forums, news sites)
+o documentation for technical and non-technical audiences.
+● Code collaboration technologies.
+● Version control.
+● Source control.
+● Integrated Development Environments (IDEs).
+
+
+##############################################
+
+
+
+
+
+
+
+
+
+################################################################################################################################################################################
+6.1-Select and use languages to create a software solution for a software project appropriate to the context and market environment in which they are developing software
+#########################################################################################################################################
+● Select and use at least two appropriate languages to implement front-end and back-end solutions:
+o Python
+o C, C# and C++
+o Javascript frameworks (Angular, React)
+o Java
+o Go
+o Ruby
+o PHP
+o SQL
+o Node.Js.
+● Be able to embed programming languages within HTML5 and CSS as required.
+● Be able to select and use appropriate application programming interfaces (APIs), packages, modules and libraries to add functionality and compatibility:
+o generating dynamic page content
+o containerisation
+o stateful vs stateless components
+o form handling
+o file and data handling:
+– handle local files
+– create, open, read, write, delete and close files on a server
+– send and receive cookies
+– add, delete and modify data in a database
+o interface components
+o media content
+o adaptive/responsive layout
+o working with existing applications, operating systems, cloud-based and traditional platforms
+o working with specific devices
+o communication over a network
+o infrastructure as code
+o security features:
+– controlling user-access
+– encrypting data.
+● Understand the use of continuous integration pipelines and how they can be used to build and deliver software solutions:
+o the concept of ‘continuous integration – continuous deployment’
+(CI/CD)
+o common stages of continuous integration pipelines:
+– source code control
+– build automation
+– unit test automation
+– deployment automation
+– monitoring.
+● Use common coding conventions:
+o naming conventions
+o code annotations/commenting
+o modularisation
+o structure/indentation
+o version control.
+● Use good practice when developing digital products (twelve factor principles):
+o One codebase tracked in revision control, many deploys.
+o Explicitly declare and isolate dependencies.
+o Store config in the environment.
+o Treat backing services as attached resources.
+o Strictly separate build and run stages.
+o Execute the app as one or more stateless processes.
+o Export services via port binding.
+o Scale out via the process model.
+o Maximise robustness with fast start-up and graceful shutdown.
+o Keep development, staging and production as similar as possible.
+o Treat logs as event streams.
+o Run admin/management tasks as one-off processes.
+
+
+######################################################
+
+
+
+
+
+
+######################################################################################################################################
+6.2-Select and use appropriate tools and features to create user interfaces that apply user experience (UX) design principles
+###############################################################################################
+● Be able to select and use appropriate user interface features:
+o images and animation
+o audio
+o effects
+o interactions:
+– user input
+– output/user feedback
+– textual
+– graphical
+– audio
+– haptic
+o data visualization:
+– dashboard
+– graphing
+– data presentation.
+● Be able to select and use appropriate user interface techniques:
+o layout grids
+o layout and use of space
+o font selection and typesetting
+o letter spacing
+o line spacing
+o justification
+o use of colour and contrast
+o input focus
+o hover controls.
+● Be able to make appropriate design decisions, with consideration of:
+o browser support
+o target device/platform
+o user characteristics
+o available bandwidth
+o style and branding
+o accessibility
+o user input method, including:
+– voice
+– text
+– touch screen
+– mouse.
+
+
+####################
+
+
+
+
+
+#########################################################################
+6.3-Connect code to data sources as part of a software project
+#############################################
+● Create data sources to support software solutions using a database.
+● Connect to data sources using different connections:
+o application programming interface (API):
+– types of requests and request methods
+– endpoints
+– retrieving and parsing data
+– displaying data
+– API keys
+o Java database connectivity (JDBC)
+– core API (application programming interface)
+– driver manager
+– connection statement
+– prepared statement
+– result set
+– SQL queries
+o open database connectivity (ODBC)
+– application
+– driver manager
+– driver
+– data source
+o connection method
+– database name or data source
+– credentials – username/password
+– optional parameters
+o extracting data
+o storing data
+o updating data
+o deleting data
+o connecting to network resources, using tools within the development environment.
+● Be able to select and use data sources and connection methods appropriate to the context and market environment in which they are developing software.
+
+
+########################################################################################
+
+
+
+
+
+
+######################################################################
+6.4-Select and use deployment methods for a software project
+#########################################
+Use suitable deployment methods such as:
+● local installation
+● network/server installation
+● mobile platforms
+● web-based platforms
+● cloud-based platforms
+● containerisation
+● container scheduling platforms.
+
+
+#################################
+
+
+
+
+
+
+##########################################################################################
+7.1-Understand, select and apply functional, non-functional and front-end testing
+#############################################################
+Be able to select and carry out appropriate functional, non-functional and front-end testing relevant to the component or product being tested and the stage within the software development life cycle.
+● Functional testing:
+o unit testing
+o smoke testing
+o integration testing
+o system testing.
+● Non-functional testing:
+o availability testing
+o compatibility testing
+o configuration testing
+o load testing.
+● Front-end testing to check:
+o code/script performance and functionality
+o browser compatibility
+o operating system compatibility
+o cross-browser performance
+o formatting and rendering
+o loading times
+o responsiveness.
+● Security testing:
+o vulnerability scanning
+o static analysis
+o dynamic analysis
+o integration analysis
+
+
+#########################
+
+
+
+
+
+
+#########################################################
+7.2-Understand, select and apply testing techniques
+######################################
+● Acceptance testing.
+● Alpha testing.
+● Beta testing.
+● Black box testing.
+● White box testing/structural testing.
+
+
+###########################################
+
+
+
+
+
+
+########################################################################################
+7.3-Select appropriate tests and test data to test the functionality of software
+######################################################
+Be able to devise and apply an appropriate test plan to ensure software is functional.
+● Purpose of the identified test.
+● Test data:
+o valid test data
+o invalid test data
+o valid extreme test data
+o invalid extreme test data
+o erroneous test data.
+● Pre-requisite to each test.
+● Expected test results.
+● Update the plan to include:
+o actual results
+o changes made
+o retests/regression testing following changes.
+
+
+################################################
+
+
+
+
+
+
+############################################################################################
+8.1-Understand the changing nature of digital products and the factors that drive change
+##################################################################
+Understand how business-driven development affects the types of maintenance to be performed:
+● To prevent identified and foreseeable issues such as:
+o changes to regulatory requirements
+o compatibility with new products or technology
+o changes in business process
+o release of a new product/service.
+● To correct unforeseen or previously unpreventable errors such as:
+o new vulnerabilities due to changes in other products or systems (zero-day)
+o targeted attack
+o data corruption
+o system failures.
+● Iterative development of digital products to maintain relevance:
+o review following user/client feedback
+o developments in technology
+o competition with other organisations
+o the need to improve efficiency
+o the need to future proof products.
+
+
+######################################
+
+
+
+
+
+
+
+#################################################################################
+8.2-Understand the stages involved in the software change management process
+#######################################################
+● Identify issues/changes made during the feedback/review process.
+● Document developments and changes in a software project.
+● Communicate with different audiences:
+o technical
+o non-technical.
+● Plan the changes required.
+● Schedule the changes.
+● Carry out regression testing.
+● Control and release updated products:
+o planned
+o reactive.
+
+
+###############
+
+
+
+
+
+
+#################################################################
+8.3-Understand how to maintain code as part of a larger team.
+########################################
+Understand and apply good coding principles when developing, adapting and maintaining code:
+● separating code and using modularity
+● readability
+● use of common/accepted coding conventions
+● informative commenting/annotation within the code
+● updating change logs and other documentation.
+
+
+################################################
+
+
+
+
+
+
+#####################################################
+8.4-Understand how to support software users
+####################################
+● Be able to communicate with technical and non-technical audiences, using appropriate tone and levels of technical vocabulary through:
+o face-to-face communication
+o remote conferencing
+o written communication:
+– blogs
+– formal reports
+– technical documentation
+– release notes
+– user guides/help files
+– FAQs
+o visual and audio communication
+– user demonstrations
+– screencast videos
+– narration (recorded voice, text-to-speech)
+o machine-readable application programming interface (API) contact.
+● Apply systematic processes to users and resolve issues:
+o identify or replicate the issue
+o investigate the possible cause of issues:
+– user error
+– system error
+– application error
+– security breach.
+● Apply testing techniques to:
+o identify errors in the system/code
+o make changes to the system/code as required
+o ensure error does not return
+o ensure no additional issues have been caused as a result of the
+changes made.
+● Communicate how and when the issue was resolved to appropriate stakeholders.
+● Document lessons learned.
+
+
+#############################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###########################
+Task 1-Planning a project
+########################
+Project planning tools:
+Be able to use project planning tools to apply understanding of project planning in response to a scenario.
+#############
+Gantt chart:
+Assess the strengths and skills of people and assign appropriate tasks to them.
+Make scheduling decisions in response to a defined deadline.
+Prioritise activities or tasks based on analysis of requirements.
+Demonstrate how to correctly and appropriately assign resources to project tasks.
+Produce a Gantt chart to show project tasks and organise them efficiently, using an appropriate Software Development Lifecycle model.
+
+
+########################
+Resource and cost plan:
+Identify and calculate costs of a project, including:
+● materials
+● physical resources
+● personnel.
+Select and allocate resources to the resource list, and correctly attribute costs to provide an accurate estimate of the total project cost.
+
+
+###########
+Rationale:
+Consider the factors that are most relevant when planning projects.
+Justify project planning decisions made, with consideration given to:
+● cost, risk and benefits to identified stakeholders
+● order and timing of tasks
+● selection and allocation of resources, including personnel and physical resources
+dependencies and prerequisites
+
+
+############################
+
+
+
+
+
+
+
+
+
+
+
+
+#########################################################
+Task 2-Identifying and fixing defects in an existing code
+#########################################################
+Use of testing to identify defects:
+Assess the given code against requirements.
+Carry out testing to identify issues in given code.
+Perform any remedial actions required, justifying any decision made when fixing the defect.
+
+
+################################
+Documenting the testing process:
+Provide annotated evidence of testing, including:
+● identifying tests to be carried out
+● describing the purpose of the identified test
+● identifying test data to be used (valid, valid extreme, invalid, invalid extreme, erroneous)
+● describing the expected results
+● describing the actual results of the tests performed
+● comparing the actual results of testing with the expected results
+● describing any further actions that are required
+● refining the system as required.
+
+
+#############
+The solution:
+Correct errors in code add and/or remove code to ensure that the given code is functional and meets the given requirements.
+Follow appropriate programming conventions when fixing code to ensure that it makes use of precise logic and programming structures throughout, so that the program produces consistently correct outcomes
+
+
+###########################################################
+
+
+
+
+
+
+
+##################################################################
+Task 3-Designing a solution
+############################
+Decomposition of the problem:
+Break down the problem into smaller parts suitable for computational solutions, justifying any decisions made. Make effective use of detailed abstraction and refinement.
+Use elements of reusable components.
+Use good decomposition to show all the necessary subsystems that make up the main solution.
+Visualise the decomposition.
+Use appropriate tools for communicating algorithms (e.g. flowcharts, pseudocode, data flow diagrams).
+
+
+############################
+Application of logical thinking:
+Describe the parts of the solution using algorithms, justifying how these algorithms form a complete solution to the problem.
+Clearly define the steps.
+Uniquely define each step. They should depend on the input and the result of the preceding steps.
+Ensure the algorithm makes use of key constructs (e.g. sequence, selection and iteration).
+
+
+############################
+Use of conventions:
+Demonstrate correct use of structure and convention for the chosen method of communication (e.g. flowcharts, pseudocode, data flow diagrams), such as correct use of symbols for flowcharts and key words used in pseudocode.
+Select and make consistent use of appropriate naming conventions throughout.
+
+
+############################
+Communication of the design:
+Ensure design documents are of sufficient detail to:
+● effectively communicate the intended solution
+● allow the client to make informed decisions
+● allow a third party to use design documents to create the proposed solution.
+Communicate intended solution effectively and
+clearly, with use of:
+● appropriate combination of written and diagrammatical presentation
+● appropriate use of technical vocabulary
+● consideration of audience
+● explanations of structures and process in the design.
+
+
+###################################################################
+
+
+
+
+
+
+
+
+###########################################################################
+Task 4a-Developing a solution
+#############################
+The solution:
+Apply an undertaking of programming to develop a solution that meets the requirements of a brief, including:
+● refining the system as required
+● demonstrating an appropriate level of technical skill, and understanding of programming techniques and problem solving
+● use of pre-written and user-written modules with appropriate interface
+● discussion of any issues that may have come about from the testing.
+
+
+#############################
+Code organisation:
+Ensure code produced for the solution is appropriate to meet the demands of the brief, including:
+● trying to avoid multiple pages of nested if-clauses and for-loops with a lot of copy-pasted procedural code
+● clear meaningful indentation
+● pieces of logic, classes or objects, with proper structure
+● comments whenever possible to help explain the logic
+● good use of local variables and minimal use of global variables
+● use of constants
+● well-designed interface
+● consistent style throughout
+● defensive programming
+● good exception handling.
+
+
+#############################
+User experience:
+Meet user needs, with consideration of:
+● consistency of the product
+● accessibility to all types of users
+● user interface design (visual design in line with brand goals)
+● meaningful feedback, changes made and problems overcome.
+
+
+#############################
+Responsiveness to the brief:
+Formal documentation of testing is not required in this activity.
+Testing by the student should still be carried out but its use should be implicit through:
+● a working product
+● a product that meets the requirements detailed in the given task brief.
+
+
+###########################################################################
+
+
+
+
+
+
+
+
+
+
+##################################
+task 4b-Reflective evaluation
+##################################
+Programming outcomes:
+Be able to apply reflection and evaluation techniques. 
+Provide evidence that the product meets brief 
+requirements:
+● include measures against success criteria
+● provide evidence that the product meets user needs from testing
+● discuss how it could be improved if the problem was revisited and given detailed consideration.
+
+
+#####################
+Comparison to designs:
+● Provide a well-developed line of reasoning which is clear and logically structured. The information presented is relevant and substantiated.
+● Discuss the maintainability of the solution.
+● Discuss potential further developments of the solution.
+● Discuss any changes and why they are different from the original designs.
+
+
+#################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########################################################
+Paper 1: Digital Analysis, Legislation and Emerging Issues
+##########################################################
+Written examination: 2 hours 30 minutes - 33.33% of the core assessments - 100 marks
+##########################################################
+Content overview:
+1. Problem solving
+2. Introduction to programming
+3. Emerging issues and impact of digital
+4. Legislation and regulatory requirements
+
+
+##########################################################
+Assessment overview:
+● An externally-assessed written examination comprising two sections. Students answer all questions in Section A and Section B.
+● The examination will include short, medium and extended open-response questions, as well as labelling questions.
+● The examination will be set and marked by Pearson.
+
+
+###########################################################
+
+
+
+
+
+
+
+
+##################################
+Paper 2: The Business Environment
+##################################
+Written examination: 2 hours 30 minutes - 33.33% of the core assessments - 100 marks
+##################################
+Content overview:
+5. Business context
+6. Data
+7. Digital environments
+8. Security
+##################################
+Assessment overview:
+● An externally-assessed written examination comprising two sections. Students answer all questions in Section A and Section B.
+● The examination will include short, medium and extended open-response questions, as well as labelling questions.
+● The examination will be set and marked by Pearson.
+
+
+##################################
+
+
+
+
+
+
+
+
+####################################################################################
+Employer Set Project Core project – Employer Set Project
+Externally assessed project: 14.5 hours - 33.33% of the core assessments - 100 marks
+###############################################################
+Content overview:
+When responding to the core project, students will need to draw on knowledge and understanding form across the core content in a synoptic manner, in order to effectively respond to a brief within a vocational context.
+
+
+####################
+Assessment overview
+There are five parts to the assessment:
+Task 1: Planning a project
+Task 2: Identifying and fixing defects in existing code
+Task 3: Designing a solution
+Task 4a: Developing the solution
+Task 4b: Reflective evaluation
+########################
+● Students will undertake the assessed elements of the project tasks under supervised conditions.
+● The assessment will take place over multiple sessions up to a combined duration of 14.5 hours.
+● The project outcomes will consist of a portfolio of evidence submitted electronically.
+● Students will undertake a project in response to a realistic contextual challenge.
+● The project is validated by an employer panel, taking into account the client’s requirements and the user experience.
+● The project will consist of planning documentation, an annotated digital portfolio, a prototype digital product, testing evidence and evaluation.
+● The project will be set and marked by Pearson.
+
+
+#####################################################################################
+
+
+
+
+
+
+
+
+#############################################
+Employer Set Project Assessment Objectives
+############
+Assessment Objective Proportion
+#############
+AO1 1. Planning Plan an approach to developing solutions to solve problems in response to a brief.
+17%
+
+#############
+AO2 2. Application Apply knowledge and skills to develop software, create an artefact, fix defects and mitigate risks to security.
+43%
+
+#############
+AO3 3. Selecting relevant techniques and resources Select relevant tools, techniques and resources to respond to a brief and work in a collaborative environment. 
+5%
+
+#############
+AO4 4a. Maths skills Use appropriate maths skills to realise a project outcome in response to a brief.
+4b. English skills Use appropriate English skills to communicate technical information to both technical and non-technical audiences.
+4c. Digital skills Use appropriate digital skills to realise a project outcome in response to a brief and communicate technical information to both technical and non-technical audiences.
+3%
+
+#############
+AO5 5a. Project Outcome Realise a project outcome by producing software and artefacts in response to a brief. 
+23%
+
+#############
+5b. Review Review how well digital solutions meet a brief, using reflective evaluation. 
+9%
+
+############################################
+
+
+
+
+
+
+
+
+
+
+##############################################################################
+Occupational Specialism Project – Digital Production, Design and Development
+##############################################################################
+Externally assessed project: 67 hours - 145 marks
+#################################################
+Performance Outcomes In this unit, students will:
+PO1: analyse a problem to define requirements and acceptance criteria, aligned to user needs
+PO2: design, implement and test software
+PO3: change, maintain and support software
+PO4: create solutions in a social and collaborative environment
+PO5: discover, evaluate and apply reliable sources of knowledge
+PO6: apply ethical principles and manage risks in line with legal and regulatory requirements when developing software.
+
+
+###########
+Assessment overview there are four parts to the assessment:
+Task 1: Analysing the problem and designing a solution.
+Task 2: Developing the solution.
+Task 3a: Gathering feedback to inform future development.
+Task 3b: Evaluating feedback to inform further development.
+
+
+###########
+Students will respond to a given scenario to complete a substantial Digital Production, Design and development project. Students will be assessed on their application of the skills listed for the Performance Outcomes.
+The tables below show each assessment area of a typical Occupational Specialist project and the relevant skills that the project will target.
+Students will not be assessed against specific ‘knowledge’ outcomes but will be expected to draw on and apply related knowledge to ensure appropriate outcomes when applying the skills in response to an assessment scenario.
+● Students will undertake the project under a combination of supervised and non-supervised conditions.
+● The assessment will take place over multiple sessions, up to a combined duration of 67 hours.
+● The project outcomes will consist of a portfolio of evidence submitted electronically.
+● Students will respond to a scenario to design and develop a software-based solution.
+● This project will be set and marked by Pearson.
+
+
+#################################################
+
+
+
+
+
+
+
+
+
+#########################################
+Grade	CoreExam  CoreESP    Core Overall
+#########################################
+Maximum	240	    120	         360
+#########################################
+A*	216–240	 108 – 120     324 – 360
+A	192-215   96 – 107     288 – 323
+B	168–191   84 – 95      252 – 287
+C	144–167   72 – 83      216 – 251
+D	120–143   60 – 71      180 – 215
+E	96–119	  48 – 59      144 – 179
+U	0–95	   0 – 47        0 – 143
+#########################################
+
+
+###################################################
+Core  	Distinction	Merit	        Pass
+###################################################
+A*	Distinction*	Distinction 	Distinction
+A 	Distinction 	Distinction 	Merit
+B 	Distinction 	Merit 	        Merit
+C 	Merit 	        Merit    	Pass
+D 	Merit     	Pass 	        Pass
+E 	Pass 	        Pass 	        Pass
+###################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

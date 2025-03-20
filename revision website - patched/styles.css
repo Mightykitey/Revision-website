@@ -1,0 +1,232 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #9df7a9; /* Light gray background for the whole page */
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Container to hold content with a clean white background and some padding */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #9df7a9;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #fff; /* Pure white background for each section */
+}
+
+/* Title header for main sections */
+h1, h2 {
+    color: #003366; /* Dark blue for the main title */
+    font-size: 2.6rem;
+    font-weight: 600;
+    font-family: serif;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #003366;
+}
+
+h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    font-family: serif;
+    color: #0e47e2; /* Dark blue for subheadings */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #003366; /* Border for visual separation */
+    padding-bottom: 8px;
+}
+
+#demo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    font-family: serif;
+    color: #56e6e6;
+
+}
+/* Paragraph styling */
+p {
+    font-size: 1.2rem;
+    font-family: serif;
+    color: #0761d6;
+    margin-bottom: 20px;
+}
+
+
+pre {
+    font-size: 0.85rem;
+    font-family: serif;
+    color: #000000;
+    border-bottom: 2px solid #003366; /* Border for visual separation */
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+}
+
+/* List styling for bullet points */
+ul {
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 1.2rem;
+    color: #8247b3;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003366;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #ffa500; /* Highlight color for hover */
+    text-decoration: underline;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size:1.3rem
+}
+
+/* Links within the page */
+a {
+    color: #007BFF;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #2aa9b9;
+    text-decoration: underline;
+    font-size:2.3rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+ 
+}
+
+/* Navigation links styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+nav a {
+    font-size: 1.5rem;
+    font-family: serif;
+    color: rgb(233, 190, 210);
+    text-decoration: none;
+   
+}
+
+
+/* Navigation Section Styling */
+nav {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+
+    section p {
+        font-size: 1rem
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+}
+
+/* Custom section styles for specific pages (like the context pages) */
+.context-section {
+    margin-bottom: 40px;
+}
+
+.context-section h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+/* Styling for the main page link navigation (e.g., in the notepad collection) */
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Clean hover effect on context links */
+nav a:hover {
+    color: #7cf165;
+    font-size:1.65rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* For sections that include a list of items or concepts */
+section ul {
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Add background gradient for the entire page */
+body {
+    background: linear-gradient(to bottom right, #597ea3, #597ea3); /* Light gradient */
+}
+
+/* Section-specific backgrounds */
+.container {
+    background: #ffffff; /* Ensures container has solid white background */
+}
