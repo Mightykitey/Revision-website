@@ -12,6 +12,49 @@
 </head>
 <body>
   <div class="container">
+    <h3>pandas revision</h3>
+    <h4>Reading Data:</h4>
+    <ul>
+        <li><strong>Read CSV:</strong> <pre>import pandas as pd<br>data = pd.read_csv("file.csv")</pre> - Reads a CSV file into a DataFrame. If the file exists and the format is correct, it loads the data into a DataFrame object.</li>
+        <li><strong>Read Excel:</strong> <pre>data = pd.read_excel("file.xlsx")</pre> - Reads an Excel file into a DataFrame. You can specify the sheet name with the <code>sheet_name</code> parameter.</li>
+        <li><strong>Read SQL:</strong> <pre>import sqlite3<br>conn = sqlite3.connect("database.db")<br>data = pd.read_sql("SELECT * FROM table", conn)</pre> - Reads data from a SQL database into a DataFrame using a SQL query.</li>
+    </ul>
+    
+    <h4>DataFrame Operations:</h4>
+    <ul>
+        <li><strong>Display First Rows:</strong> <pre>data.head()</pre> - Returns the first 5 rows of the DataFrame. Useful for quickly inspecting the data.</li>
+        <li><strong>Display Last Rows:</strong> <pre>data.tail()</pre> - Returns the last 5 rows of the DataFrame.</li>
+        <li><strong>Columns:</strong> <pre>data.columns</pre> - Lists all the column names of the DataFrame.</li>
+        <li><strong>Filtering Data:</strong> <pre>filtered_data = data[data['column_name'] > 10]</pre> - Filters rows where values in a column meet a certain condition.</li>
+    </ul>
+    
+    <h4>Data Manipulation:</h4>
+    <ul>
+        <li><strong>Adding a New Column:</strong> <pre>data['new_column'] = data['existing_column'] * 2</pre> - Creates a new column by performing operations on existing columns.</li>
+        <li><strong>Dropping a Column:</strong> <pre>data = data.drop('column_name', axis=1)</pre> - Removes a column from the DataFrame.</li>
+        <li><strong>Renaming Columns:</strong> <pre>data = data.rename(columns={'old_name': 'new_name'})</pre> - Renames columns in the DataFrame.</li>
+    </ul>
+    
+    <h4>Handling Missing Data:</h4>
+    <ul>
+        <li><strong>Check for Missing Values:</strong> <pre>data.isnull().sum()</pre> - Returns a count of missing (NaN) values in each column.</li>
+        <li><strong>Drop Missing Values:</strong> <pre>data = data.dropna()</pre> - Removes rows with missing values.</li>
+        <li><strong>Fill Missing Values:</strong> <pre>data = data.fillna(0)</pre> - Fills missing values with a specified value (e.g., 0).</li>
+    </ul>
+    
+    <h4>Grouping Data:</h4>
+    <ul>
+        <li><strong>Group by Column:</strong> <pre>grouped_data = data.groupby('column_name').sum()</pre> - Groups the DataFrame by a specific column and applies a sum operation to each group.</li>
+        <li><strong>Multiple Aggregations:</strong> <pre>grouped_data = data.groupby('column_name').agg({'column_to_agg': ['sum', 'mean']})</pre> - Applies multiple aggregation functions to a specific column after grouping.</li>
+    </ul>
+    
+    <h4>Data Export:</h4>
+    <ul>
+        <li><strong>Export to CSV:</strong> <pre>data.to_csv("output.csv", index=False)</pre> - Saves the DataFrame to a CSV file. The <code>index=False</code> parameter avoids saving the index as a column.</li>
+        <li><strong>Export to Excel:</strong> <pre>data.to_excel("output.xlsx", index=False)</pre> - Saves the DataFrame to an Excel file.</li>
+        <li><strong>Export to SQL:</strong> <pre>data.to_sql('table_name', conn, if_exists='replace')</pre> - Saves the DataFrame to a SQL database, replacing the existing table if it exists.</li>
+    </ul>
+
     <h4>example code  for import and printing dataframe</h4>         
     <pre>
 # Example of importing dataframe
