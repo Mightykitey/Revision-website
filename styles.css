@@ -50,7 +50,16 @@ h3 {
     border-bottom: 2px solid #003366; /* Border for visual separation */
     padding-bottom: 8px;
 }
-
+h4{
+    font-size: 2.1rem;
+    font-weight: 500;
+    font-family: serif;
+    color: #0e47e2; /* Dark blue for subheadings */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #003366; /* Border for visual separation */
+    padding-bottom: 8px;
+    
+}
 #demo {
     font-size: 2.1rem;
     font-weight: 500;
