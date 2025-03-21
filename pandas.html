@@ -14,21 +14,33 @@
   <div class="container">
     <h4>example code  for import and printing dataframe</h4>         
     <pre>
-    # Example of importing dataframe
-      import pandas as pd # importing the pandas libary for data frame handling
+# Example of importing dataframe
+    import pandas as pd # importing the pandas libary for data frame handling
+    df= pd.read_csv("scenario1.csv") # importing dataframe from file
+    print(df) # printing the data frame
 
-      df= pd.read_csv("scenario1.csv") # importing dataframe from file
-      print(df)
+# Example of printing out one sales person only by name
+    df1=df[(df[Salesperson]=="salesperson name")] # stripping away unwated salespersons
+    print(df1) # printing the salespersons data
 
-    # Example of writing to a file
-    with open("file.txt", "w") as file:
-        file.write("Hello, this is a text file.")
+# Example of outputting total sales for each region
+    df1=df[["sales","Region"]] # stripping away unwanted colums
+    regions=df["region"].unique() # getting all unique regions and putting them in a list
+    for i in regions: # going through all regions in a loop
+        region_sales=df1[i] # getting sales data for the region
+        print(f"sales for {i}") # printing the region name
+        print(region_sales) # printing the region data
+
+# Example for outputting the average sales for each region
+    
+
+    
     </pre>
 
 
     
     <footer>
-        <a href="context1.html">Back to Context 1</a> | <a href="index.html">Return to New Website</a>
+        <a href="index.html">Return to New Website</a>
     </footer>
   </div>
 </body>
