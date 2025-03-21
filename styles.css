@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+.font-changed {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /* Container to hold content with a clean white background and some padding */
 .container {
     max-width: 900px;
