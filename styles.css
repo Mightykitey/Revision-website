@@ -14,10 +14,9 @@ body {
     padding: 0;
     margin: 0;
 }
-
-.font-changed {
-    font-family: Lexie Readable;
-}
+  ai{
+      font-size: 0.2rem;
+  }
 
 /* Container to hold content with a clean white background and some padding */
 .container {
