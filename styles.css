@@ -15,7 +15,10 @@ body {
     margin: 0;
 }
   ai{
-      font-size: 0.2rem;
+    font-size: 0.05rem;
+    font-family: serif;
+    color: #0761d6;
+    margin-bottom: 20px;
   }
 
 /* Container to hold content with a clean white background and some padding */
