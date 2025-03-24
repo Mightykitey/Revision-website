@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="T-Level digital Revision">
+    <meta name="keywords" content="Revision, T-level digital, UTC, digital, Kyte, Tyler, Kite, matplotlib, pandas, crosstab">
+    <meta name="author" content="Kyte, Tyler">
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+    <title>matplotlib revision</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h3>matplotlib revision</h3>
+    <h4>Basic Plotting:</h4>
+    <ul>
+        <li><strong>Line Plot:</strong> <pre>import matplotlib.pyplot as plt<br>x = [1, 2, 3, 4]<br>y = [10, 20, 25, 30]<br>plt.plot(x, y)<br>plt.show()</pre> - Creates a simple line plot.</li>
+        <li><strong>Scatter Plot:</strong> <pre>plt.scatter(x, y)</pre> - Creates a scatter plot of x and y values.</li>
+        <li><strong>Bar Plot:</strong> <pre>plt.bar(x, y)</pre> - Creates a bar chart with x as categories and y as the height of the bars.</li>
+    </ul>
+    
+    <h4>Customizing Plots:</h4>
+    <ul>
+        <li><strong>Title:</strong> <pre>plt.title("Plot Title")</pre> - Adds a title to the plot.</li>
+        <li><strong>Labels:</strong> <pre>plt.xlabel("X-axis label")<br>plt.ylabel("Y-axis label")</pre> - Adds labels to the axes.</li>
+        <li><strong>Grid:</strong> <pre>plt.grid(True)</pre> - Adds a grid to the plot for better readability.</li>
+    </ul>
+    
+    <h4>Saving Plots:</h4>
+    <ul>
+        <li><strong>Save Plot to File:</strong> <pre>plt.savefig("plot.png")</pre> - Saves the current plot to a file.</li>
+    </ul>
+    
+    <h4>Subplots:</h4>
+    <ul>
+        <li><strong>Create Subplots:</strong> <pre>fig, axs = plt.subplots(2, 2)</pre> - Creates a 2x2 grid of subplots.</li>
+        <li><strong>Access Individual Subplot:</strong> <pre>axs[0, 0].plot(x, y)</pre> - Accesses a specific subplot in a grid.</li>
+    </ul>
+    
+    <h4>Cross-Tabulation with Pandas:</h4>
+    <ul>
+        <li><strong>Creating a Crosstab:</strong> <pre>import pandas as pd<br>data = pd.DataFrame({"Region": ["North", "South", "North", "East", "South"],<br>"Salesperson": ["Alice", "Bob", "Alice", "Charlie", "Bob"],<br>"Sales": [100, 200, 150, 120, 180]})<br>crosstab_data = pd.crosstab(data["Region"], data["Salesperson"])</pre> - Creates a cross-tabulation of two categorical variables. In this case, `Region` and `Salesperson`.</li>
+        <li><strong>Plotting Crosstab Data:</strong> <pre>crosstab_data.plot(kind="bar", stacked=True)<br>plt.title("Sales by Region and Salesperson")<br>plt.xlabel("Region")<br>plt.ylabel("Sales")<br>plt.show()</pre> - Plots the cross-tabulated data as a stacked bar chart.</li>
+    </ul>
+
+    <h4>Example Code for Cross-Tabulation and Plotting:</h4>
+    <pre>
+# Example of Crosstab
+    import pandas as pd
+    data = pd.DataFrame({
+        "Region": ["North", "South", "North", "East", "South"],
+        "Salesperson": ["Alice", "Bob", "Alice", "Charlie", "Bob"],
+        "Sales": [100, 200, 150, 120, 180]
+    })
+    
+    # Creating a Crosstab
+    crosstab_data = pd.crosstab(data["Region"], data["Salesperson"])
+    print(crosstab_data)
+
+# Example of Plotting Crosstab Data
+    crosstab_data.plot(kind="bar", stacked=True)
+    plt.title("Sales by Region and Salesperson")
+    plt.xlabel("Region")
+    plt.ylabel("Sales")
+    plt.show()
+    </pre>
+    
+    <footer>
+        <a href="index.html">Return to New Website</a>
+    </footer>
+  </div>
+</body>
+</html>
