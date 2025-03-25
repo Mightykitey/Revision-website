@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="T-Level digital Revision">
-      <meta name="keywords" content="Revision, T-level digital, UTC, digital, Kyte, Tyler, Kite">
-      <meta name="author" content="Kyte, Tyler">
+    <meta name="keywords" content="Revision, T-level digital, UTC, digital, Kyte, Tyler, Kite">
+    <meta name="author" content="Kyte, Tyler">
     <title>Context 1.2 - Algorithms</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
@@ -15,37 +15,85 @@
         <h2>1.2 - Algorithms</h2>
 
         <h3>1.2.1 - Understand what algorithms are and how they are expressed</h3>
-        <p><strong>Algorithms:</strong> An algorithm is a step-by-step procedure or formula for solving a problem. It is a set of instructions designed to perform a specific task or solve a problem. Algorithms can be expressed in various ways, including natural language, flowcharts, or pseudocode, and they are a critical part of computer science and problem-solving. They help automate tasks, process data, and optimize processes to make them more efficient.</p>
+        <p><strong>Algorithms:</strong> An algorithm is a step-by-step procedure or formula for solving a problem. It is a well-defined sequence of actions or instructions that leads to a solution. Algorithms are used in all aspects of computing, from simple tasks like adding two numbers to complex processes like data encryption. They are fundamental to computer science because they help in automating tasks, solving problems efficiently, and optimizing processes.</p>
+        <p>Algorithms can be expressed in a variety of formats, such as:</p>
+        <ul>
+            <li><strong>Natural Language:</strong> Describing an algorithm in everyday language, though not as precise as other formats, it is often used for simple problems or when explaining concepts.</li>
+            <li><strong>Flowcharts:</strong> A diagrammatic representation of an algorithm, showing the sequence of operations and decision points.</li>
+            <li><strong>Pseudocode:</strong> A more structured, language-independent way of writing algorithms using plain language with a syntax similar to programming languages.</li>
+        </ul>
+        <p>Example of an algorithm in pseudocode:</p>
+        <pre>
+            1. Start
+            2. Input number1, number2
+            3. Calculate sum = number1 + number2
+            4. Output sum
+            5. End
+        </pre>
 
         <h3>1.2.2 - Be able to express an algorithm using flowcharts and pseudocode</h3>
-        <p>Flowcharts and pseudocode are common tools used to express algorithms in a structured manner:</p>
+        <p>Flowcharts and pseudocode are important tools for representing algorithms in a structured way:</p>
         <ul>
-            <li><strong>Flowcharts:</strong> These are visual diagrams that represent the steps of an algorithm using symbols such as ovals (for start and end), rectangles (for processes), diamonds (for decision points), and arrows (for the flow of control). Flowcharts help to visually map out the logic of an algorithm.</li>
-            <li><strong>Pseudocode:</strong> Pseudocode is a written, human-readable description of the steps in an algorithm. It is not tied to any specific programming language, and it uses simple, structured English-like statements to describe each step of the algorithm. It is often used for planning an algorithm before coding.</li>
+            <li><strong>Flowcharts:</strong> These are visual diagrams used to represent the sequence of operations in an algorithm. They use various symbols to denote different actions, such as ovals for start and end, rectangles for processes, diamonds for decision points, and arrows to show the flow of control. Flowcharts are helpful for understanding the logic and sequence of steps.</li>
+            <li><strong>Pseudocode:</strong> Pseudocode is a way of expressing an algorithm in plain language using simple, structured statements. It helps to focus on the logic without worrying about specific programming syntax. For example, a simple pseudocode for finding the largest of two numbers might look like this:</li>
+            <pre>
+                1. Start
+                2. Input number1, number2
+                3. If number1 > number2 then
+                4.     Output number1 is larger
+                5. Else
+                6.     Output number2 is larger
+                7. End
+            </pre>
         </ul>
 
         <h3>1.2.3 - Be able to write algorithms that make use of programming constructs</h3>
-        <p>Algorithms often make use of basic programming constructs, such as:</p>
+        <p>When writing algorithms, it is essential to understand and use basic programming constructs, such as:</p>
         <ul>
-            <li><strong>Sequence:</strong> A series of steps executed in order, one after another.</li>
-            <li><strong>Selection:</strong> A decision-making process where different actions are taken based on conditions (e.g., using IF statements, which allow the algorithm to make decisions based on whether a condition is true or false).</li>
-            <li><strong>Iteration:</strong> Repeating a set of instructions multiple times (e.g., using FOR loops or WHILE loops to repeat actions until a certain condition is met).</li>
+            <li><strong>Sequence:</strong> This is the straightforward, step-by-step execution of operations. It is the simplest form of an algorithm, where actions occur one after another.</li>
+            <li><strong>Selection:</strong> This involves decision-making, where different actions are taken based on a condition. For example, using an <strong>IF</strong> statement to check if a condition is true or false and taking appropriate actions based on that decision.</li>
+            <li><strong>Iteration:</strong> Iteration is the repetition of steps or actions. It can be achieved using loops such as <strong>FOR</strong> or <strong>WHILE</strong> loops, which repeat a set of instructions as long as a condition holds true.</li>
         </ul>
+        <p>Example of an algorithm with iteration:</p>
+        <pre>
+            1. Start
+            2. Set counter to 1
+            3. While counter <= 5 do
+            4.     Output counter
+            5.     Increment counter by 1
+            6. End
+        </pre>
 
         <h3>1.2.4 - Understand the purpose of a given algorithm</h3>
-        <p>The purpose of an algorithm is to solve a specific problem or accomplish a particular task. Whether it’s sorting data, finding the shortest path in a graph, or processing input, every algorithm is designed with an end goal in mind. Understanding the purpose of an algorithm helps to choose the right approach for the problem and ensure the algorithm is both efficient and effective.</p>
+        <p>The purpose of an algorithm is to solve a specific problem or perform a defined task. Each algorithm is designed with a goal in mind, such as sorting a list of numbers, searching for an item in a collection, or computing a mathematical result. Understanding the purpose of an algorithm helps in selecting or designing the most efficient solution. The purpose could also determine which algorithm to use (e.g., bubble sort vs. quicksort for sorting a list of numbers).</p>
 
         <h3>1.2.5 - Be able to determine the correct output of an algorithm</h3>
-        <p>To determine the correct output of an algorithm, you must understand the problem it is solving, the inputs it receives, and how it processes those inputs. By tracing the algorithm step-by-step (either manually or through simulation), you can determine if the expected output is achieved. In programming, debugging and testing can also help verify that the output matches the intended results.</p>
+        <p>To determine the correct output of an algorithm, you must first understand the input and the steps it takes to process that input. You can verify the output by:</p>
+        <ul>
+            <li><strong>Manually tracing the algorithm:</strong> Walk through the algorithm step by step with sample inputs to verify that it produces the expected output.</li>
+            <li><strong>Testing with different inputs:</strong> Run the algorithm with a variety of inputs, including edge cases (e.g., empty inputs, maximum values) to ensure robustness.</li>
+        </ul>
+        <p>For example, if you want to find the sum of two numbers, the algorithm will take the two numbers as input and return their sum. Testing this with inputs like (3, 4) should give an output of 7.</p>
 
         <h3>1.2.6 - Be able to identify and correct errors in an algorithm</h3>
-        <p>Errors in an algorithm may occur due to incorrect logic, faulty assumptions, or improper handling of inputs. To identify and correct errors, you can:</p>
+        <p>Errors in algorithms can arise due to incorrect logic, misunderstandings of the problem, or issues with the inputs. Here’s how you can identify and correct errors:</p>
         <ul>
-            <li><strong>Test the algorithm:</strong> Run the algorithm with different inputs to observe if it produces the correct output. Test for edge cases and unusual inputs to identify potential flaws.</li>
-            <li><strong>Trace the algorithm:</strong> Manually walk through the algorithm step by step to see if the logic flows correctly and identify where it deviates from the expected behavior.</li>
-            <li><strong>Review the pseudocode or flowchart:</strong> Sometimes errors in algorithms are easier to spot when expressed in a more structured format. This helps identify logical inconsistencies or missed conditions.</li>
-            <li><strong>Modify the algorithm:</strong> Once an error is found, adjust the algorithm’s steps or logic to correct the mistake, ensuring that it functions correctly for all possible cases.</li>
+            <li><strong>Test the algorithm:</strong> Run the algorithm with different inputs, including edge cases, to identify situations where it doesn’t behave as expected.</li>
+            <li><strong>Trace the algorithm:</strong> Go through the algorithm step by step, manually or using a debugger, to identify where the logic deviates from the expected path.</li>
+            <li><strong>Review pseudocode or flowchart:</strong> Sometimes the error becomes clear when looking at the algorithm in a structured format, as this may highlight overlooked conditions or incorrect logic.</li>
+            <li><strong>Modify the algorithm:</strong> After identifying the error, adjust the logic, conditions, or flow to correct the algorithm. Re-test to verify that the correction works for all cases.</li>
         </ul>
+        <p>Example of an error correction:</p>
+        <p>If the algorithm for calculating the largest of two numbers is incorrectly written as:</p>
+        <pre>
+            1. Start
+            2. If number1 < number2 then
+            3.     Output number1 is larger
+            4. Else
+            5.     Output number2 is larger
+            6. End
+        </pre>
+        <p>It would output "number1 is larger" when number1 is smaller than number2. The error can be corrected by changing the condition in line 2 to <strong>number1 > number2</strong>.</p>
 
         <footer>
             <a href="context1.html">Back to Context 1</a> | <a href="index.html">Return to New Website</a>
