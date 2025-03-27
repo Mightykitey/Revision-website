@@ -62,12 +62,18 @@ h4{
     padding-bottom: 8px;
     
 }
-#demo,#demo2 {
+#demo{
     font-size: 2.1rem;
     font-weight: 500;
     font-family: serif;
     color: #56e6e6;
+}
 
+#demo2{
+    font-size: 2.1rem;
+    font-weight: 500;
+    font-family: serif;
+    color: #56e6e6;
 }
 /* Paragraph styling */
 p {
