@@ -18,6 +18,24 @@
         <h3><a href="context2.html" >Context 2</a></h3>
         <h3><a href="context3.html" >Context 3</a></h3>
         <h3><a href="context4.html" >Context 4</a></h3>
+        <p id="demo"></p>
+        <script>
+        var countDownDate = new Date("june 3, 2025 8:45:00").getTime();
+        var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("demo").innerHTML ="Time Till Doom's Day: " + days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+        }, 1000);
+        </script>
         <footer>
             <a href="index.html">Return to Home</a>
         </footer>
