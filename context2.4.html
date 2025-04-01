@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="T-Level digital Revision">
-      <meta name="keywords" content="Revision, T-level digital, UTC, digital, Kyte, Tyler, Kite">
-      <meta name="author" content="Kyte, Tyler">
+    <meta name="description" content="T-Level Digital Revision - Understanding Program Structure">
+    <meta name="keywords" content="T-Level Digital, Revision, Programming Concepts, Sequence, Selection, Iteration, Functions, Algorithms">
+    <meta name="author" content="Kyte, Tyler">
     <title>2.4 - Program Structure</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
 </head>
 <body>
     <div class="container">
-        <h3>2.4.1 - Sequence, Selection, and Iteration</h3>
-        <p>In programming, the flow of control is crucial in determining how the program executes. The three basic programming structures are:</p>
-        
+        <h3>2.4.1 - Sequence, Selection, and Iteration in Programming</h3>
+        <p>Understanding the core programming structures is essential in creating efficient, logical programs. These structures allow programmers to control how their code is executed, based on the sequence of actions, choices made, and the ability to repeat processes. The three fundamental structures are:</p>
+
         <h4>Sequence</h4>
-        <p><strong>Sequence</strong> refers to executing statements one after another in a linear order. Each statement is executed in the order it appears in the code.</p>
+        <p><strong>Sequence</strong> refers to executing statements in a specific, linear order, where each statement is executed one after the other. This is the most basic form of program flow.</p>
         <pre>
     # Example of Sequence
     x = 10
@@ -24,48 +24,93 @@
     z = x + y
     print(z)  # Output: 30
         </pre>
-        <p>In the example above, the program executes each line of code sequentially: first, it assigns values to variables, then adds them, and finally prints the result.</p>
+        <p>In the example above, the code is executed in a simple sequence. First, the variable <code>x</code> is assigned the value 10. Then, <code>y</code> is assigned 20. After that, <code>z</code> is calculated by adding <code>x</code> and <code>y</code>, and finally, the result is printed, which is 30.</p>
 
         <h4>Selection</h4>
-        <p><strong>Selection</strong> refers to choosing between different paths or actions based on conditions. This is typically done using <code>if</code>, <code>else</code>, and <code>elif</code> statements in many programming languages.</p>
+        <p><strong>Selection</strong> allows the program to choose between different paths based on certain conditions. This control structure is often implemented using <code>if</code>, <code>else</code>, and <code>elif</code> (or <code>else if</code>) statements in programming languages. The program selects which path to follow based on the evaluation of conditions.</p>
         <pre>
-    # Example of Selection
+    # Example of Selection (Conditional Branching)
     age = 18
     if age >= 18:
         print("You are an adult.")
     else:
         print("You are a minor.")
         </pre>
-        <p>In this example, the program checks the condition <code>if age >= 18</code>. If the condition is true, the message "You are an adult" is printed; otherwise, the message "You are a minor" is printed.</p>
+        <p>In this example, the program evaluates the condition <code>age >= 18</code>. If this condition is true, it prints "You are an adult." Otherwise, it prints "You are a minor." This allows the program to branch based on different possible conditions.</p>
 
         <h4>Iteration</h4>
-        <p><strong>Iteration</strong> refers to repeating a block of code multiple times, which is commonly done with loops. There are two main types of loops in programming:</p>
+        <p><strong>Iteration</strong> refers to the repetition of a block of code multiple times. This is often achieved through loops, which allow for repetitive tasks to be automated efficiently. There are two common types of loops used in programming:</p>
         <ul>
-            <li><strong>For loop:</strong> Repeats a block of code a specified number of times or over a sequence of values.</li>
-            <li><strong>While loop:</strong> Repeats a block of code as long as a specified condition is true.</li>
+            <li><strong>For loop:</strong> A <code>for</code> loop is used to repeat a block of code a set number of times or over a sequence of values.</li>
+            <li><strong>While loop:</strong> A <code>while</code> loop repeats a block of code as long as a specified condition remains true.</li>
         </ul>
-        
+
         <h5>For Loop Example:</h5>
         <pre>
-    # Example of For Loop
+    # Example of a For Loop
     for i in range(5):
         print(i)
         </pre>
-        <p>The above code will print the numbers 0 to 4. The <code>range(5)</code> function generates numbers from 0 to 4, and the loop iterates over them, printing each number.</p>
-        
+        <p>The <code>for</code> loop above iterates over the values generated by the <code>range(5)</code> function. This function generates numbers from 0 to 4, so the loop prints the numbers 0 through 4.</p>
+
         <h5>While Loop Example:</h5>
         <pre>
-    # Example of While Loop
+    # Example of a While Loop
     i = 0
     while i < 5:
         print(i)
-        i += 1  # Increment the value of i to avoid infinite loop
+        i += 1  # Increment the value of i to avoid an infinite loop
         </pre>
-        <p>The <code>while</code> loop will continue as long as the condition <code>i 5</code> is true. In this case, the loop will print the numbers 0 to 4.</p>
-        
-        <p>In summary, sequence, selection, and iteration are fundamental building blocks of programming that determine how programs flow and execute. Sequence handles simple step-by-step execution, selection enables decision-making, and iteration provides the ability to repeat actions based on conditions or ranges.</p>
+        <p>In this example, the <code>while</code> loop will continue running as long as the condition <code>i < 5</code> is true. With each iteration, <code>i</code> is incremented by 1 to eventually break the loop and avoid an infinite cycle.</p>
+
+        <p>In summary, <strong>sequence</strong> is the step-by-step execution of code, <strong>selection</strong> enables decision-making in the flow of execution, and <strong>iteration</strong> allows for the repeated execution of a block of code. These are essential structures in all programming languages and form the backbone of algorithm design.</p>
+
+        <h3>2.4.2 - Writing, Interpreting, and Debugging Code Using Sequence</h3>
+        <p>In programming, organizing statements in a logical and efficient order is key to ensuring that processes execute correctly and without errors. Understanding the correct order of operations is essential in avoiding logic errors and achieving accurate results.</p>
+
+        <h4>Understanding the Order of Operations</h4>
+        <p>When writing code, it's important to ensure that operations are performed in the correct order to achieve the desired output. This is especially crucial when performing mathematical calculations or when the results of one operation depend on the outcomes of previous ones.</p>
+        <pre>
+    # Example of Order of Operations
+    result = 2 + 3 * 4  # The multiplication will occur before the addition.
+    print(result)  # Output: 14
+        </pre>
+        <p>In the example above, multiplication occurs before addition due to the order of operations (PEMDAS/BODMAS), so the result is 14, not 20. Understanding this concept helps in avoiding errors and ensures that the program behaves as expected.</p>
+
+        <h3>2.4.3 - Selection (Branching) in Programming</h3>
+        <p>In programming, selection allows the program to decide between different courses of action depending on whether a condition is true or false. This decision-making is made possible by <code>if</code>, <code>else</code>, and <code>elif</code> statements, and also by <code>case</code> statements in some languages.</p>
+
+        <h4>Using Conditional Statements</h4>
+        <pre>
+    # Example of an If-Else-If Chain
+    score = 85
+    if score >= 90:
+        print("Grade A")
+    elif score >= 75:
+        print("Grade B")
+    else:
+        print("Grade C")
+        </pre>
+        <p>Here, the program evaluates multiple conditions in sequence. It checks if the score is greater than or equal to 90 for Grade A. If that’s not true, it checks if the score is greater than or equal to 75 for Grade B, and otherwise defaults to Grade C.</p>
+
+        <h3>2.4.4 - Iteration in Programming</h3>
+        <p>Iteration allows programs to perform repetitive tasks efficiently. The two main loop structures are the <code>for</code> loop, which iterates a fixed number of times, and the <code>while</code> loop, which iterates as long as a condition is true.</p>
+
+        <h3>2.4.5 - Declaring and Calling Functions and Procedures</h3>
+        <p>Functions and procedures help in organizing code into reusable blocks. They allow you to break down complex tasks into smaller, manageable sections. Understanding how to declare and call them is crucial for writing modular and maintainable code.</p>
+
+        <h3>2.4.6 - Searching and Sorting Algorithms</h3>
+        <p>Understanding common searching and sorting algorithms is essential for writing efficient programs. Below are the basic algorithms:</p>
+        <ul>
+            <li><strong>Linear Search:</strong> This search method looks through each element in a list until it finds the target value.</li>
+            <li><strong>Binary Search:</strong> This search method divides the sorted list in half to find the target value more efficiently than linear search.</li>
+            <li><strong>Bubble Sort:</strong> A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.</li>
+            <li><strong>Insertion Sort:</strong> This algorithm builds the sorted list one item at a time by inserting each new element into the correct position.</li>
+            <li><strong>Merge Sort:</strong> A more efficient sorting algorithm that splits the list into halves, recursively sorts them, and then merges the sorted halves.</li>
+        </ul>
+
         <footer>
-            <a href="context2.html">Back to Context 2</a> | <a href="core1.html">Return to core</a> | <a href="index.html">Return to main</a>
+            <a href="context2.html">Back to Context 2</a> | <a href="core1.html">Return to Core</a> | <a href="index.html">Return to Main</a>
         </footer>
     </div>
 </body>
