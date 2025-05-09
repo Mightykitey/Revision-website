@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="T-Level digital Revision">
-      <meta name="keywords" content="Revision, T-level digital, UTC, digital, Kyte, Tyler, Kite">
-      <meta name="author" content="Kyte, Tyler">
+    <meta name="keywords" content="Revision, T-level digital, UTC, digital, Kyte, Tyler, Kite">
+    <meta name="author" content="Kyte, Tyler">
     <title>2.8 - Testing</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
@@ -14,6 +14,21 @@
     <div class="container">
         <h3>2.8.1 - Importance of Testing</h3>
         <p>Testing is essential to ensure the reliability and correctness of software and systems before they are released. By testing early and often, developers can catch bugs, errors, and performance issues before they affect users. Without testing, the final product could have hidden issues, leading to user dissatisfaction and costly post-release fixes.</p>
+        
+        <p><strong>Software Testing:</strong> This verifies that the application functions correctly according to specifications. It ensures that features behave as expected and are free of bugs that could cause failures or security issues. Without thorough software testing, end-users might encounter unexpected errors or crashes.</p>
+
+        <p><strong>Compatibility Testing:</strong> This form of testing checks how well the software performs across different devices, operating systems, browsers, and hardware configurations. It's critical to ensure that users with different setups have a consistent experience. Compatibility testing helps identify conflicts, rendering issues, or performance degradation caused by environmental differences.</p>
+
+        <p><strong>Final Product Testing:</strong> Also known as system or acceptance testing, this validates that the complete, integrated product meets all requirements. It is performed from the user's perspective to ensure the system is ready for deployment. This type of testing ensures that no critical functionality is missing and that the product is stable, efficient, and ready for real-world use.</p>
+
+        <p><strong>Testing Approaches:</strong></p>
+        <ul>
+            <li><strong>Internal Testing:</strong> Conducted by the development team or internal QA to catch issues early in a controlled environment.</li>
+            <li><strong>Technical Reviews:</strong> Involves peer reviews or expert audits of the system’s technical components, such as code or architecture, to ensure best practices are followed.</li>
+            <li><strong>Beta Testing:</strong> Released to a limited group of users outside the organization to gather feedback on usability and uncover real-world issues.</li>
+            <li><strong>Public Testing:</strong> Also known as open beta or public preview, this allows a broader audience to test the product. It helps collect feedback from diverse usage scenarios and systems.</li>
+            <li><strong>User Acceptance Testing (UAT):</strong> Performed by actual users to validate that the software meets business requirements and is ready for release.</li>
+        </ul>
 
         <h3>2.8.2 - Testing Methodologies</h3>
         <p>Different types of tests are employed depending on the context, purpose, and scope of the product. Here are some common testing methodologies:</p>
@@ -41,11 +56,11 @@
         <p>Root cause analysis (RCA) is a method used to identify the underlying cause of problems. By pinpointing the source of an issue, it becomes easier to implement corrective actions to prevent it from recurring. One common method for conducting RCA is the "Five Whys," which involves asking the question "Why?" repeatedly (five times) to drill down into the problem's root cause.</p>
         <p>For example:</p>
         <ul>
-            <li><strong>1st Why:</strong> Why did the system crash? -> Because the server ran out of memory.</li>
-            <li><strong>2nd Why:</strong> Why did the server run out of memory? -> Because the application had a memory leak.</li>
-            <li><strong>3rd Why:</strong> Why was there a memory leak? -> Because a variable was not being properly released after use.</li>
-            <li><strong>4th Why:</strong> Why wasn’t the variable released? -> Because of a coding oversight in the release mechanism.</li>
-            <li><strong>5th Why:</strong> Why wasn’t the coding oversight noticed? -> Because there was no proper code review or testing for memory management.</li>
+            <li><strong>1st Why:</strong> Why did the system crash? → Because the server ran out of memory.</li>
+            <li><strong>2nd Why:</strong> Why did the server run out of memory? → Because the application had a memory leak.</li>
+            <li><strong>3rd Why:</strong> Why was there a memory leak? → Because a variable was not being properly released after use.</li>
+            <li><strong>4th Why:</strong> Why wasn’t the variable released? → Because of a coding oversight in the release mechanism.</li>
+            <li><strong>5th Why:</strong> Why wasn’t the coding oversight noticed? → Because there was no proper code review or testing for memory management.</li>
         </ul>
 
         <h3>2.8.5 - Constructing an Effective Test Plan</h3>
@@ -57,6 +72,7 @@
             <li><strong>Expected Results:</strong> Clearly define the expected outcome of the test. For example, if testing an authentication function, the expected result could be that the user is granted access upon providing valid credentials.</li>
         </ul>
         <p>By following these elements, a test plan ensures that all aspects of the system are tested and provides a clear guide for the testing process.</p>
+
         <footer>
             <a href="context2.html">Back to Context 2</a> | <a href="core1.html">Return to core</a> | <a href="index.html">Return to main</a>
         </footer>
